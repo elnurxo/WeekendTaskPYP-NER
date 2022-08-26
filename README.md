@@ -1,2 +1,2 @@
 # NorthFaceWebApp
-This is a clone of The North Face Web Application
+Weekend PYP Team Task
