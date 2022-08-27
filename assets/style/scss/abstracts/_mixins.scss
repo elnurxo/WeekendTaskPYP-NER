@@ -1,11 +1,11 @@
-@mixin button ($background-color, $color: black){
+@mixin button ($background-color, $color: black, $border-color: $background-color){
     font-weight: 900;
     font-size: 14px;
     text-align: center;
     text-transform: uppercase;
     background-color: $background-color;
     color: $color;
-    border: none;
+    border: 1px solid $border-color;
     border-radius: 6px;
     padding: 1rem 1.5rem;
 }
