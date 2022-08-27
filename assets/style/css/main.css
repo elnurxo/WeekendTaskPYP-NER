@@ -302,6 +302,62 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
       line-height: 32px;
       color: #ffffff; }
 
+.app__main__hero {
+  background-color: #32334c;
+  padding-top: 178px; }
+  .app__main__hero__content__subtitle {
+    margin-bottom: 24px; }
+    .app__main__hero__content__subtitle__item {
+      color: #ef6d58; }
+  .app__main__hero__content__title {
+    margin-bottom: 24px; }
+    .app__main__hero__content__title__item {
+      font-size: 72px;
+      color: white; }
+  .app__main__hero__content__desc__item {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.64); }
+  .app__main__hero__content__buttons {
+    padding: 10px 0;
+    margin-bottom: 108px; }
+    .app__main__hero__content__buttons--orange {
+      margin-right: 48px;
+      background: #ef6d58;
+      border-radius: 6px;
+      padding: 18px 22px;
+      color: white;
+      border: none;
+      font-weight: bold; }
+    .app__main__hero__content__buttons--transparent {
+      background-color: transparent;
+      border: none;
+      color: white; }
+  .app__main__hero__content__testimonial {
+    padding-bottom: 64px;
+    display: flex; }
+    .app__main__hero__content__testimonial__image {
+      margin-right: 20px;
+      padding: 10px; }
+    .app__main__hero__content__testimonial__body__desc__item {
+      font-family: "Epilogue";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+      color: rgba(255, 255, 255, 0.64); }
+    .app__main__hero__content__testimonial__body__author__item {
+      /* Text */
+      font-family: "Epilogue";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+      color: #ffffff; }
+
 #experience-design-agency {
   background-color: #FDF0E9; }
   #experience-design-agency .logos {
@@ -420,131 +476,3 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
     border: none;
     background-color: transparent;
     margin-top: 28px; }
-
-.app__main__portfolio {
-  background-color: #32334c;
-  font-family: "Epilogue";
-  width: 100%;
-  text-align: center; }
-  .app__main__portfolio__subtitle {
-    margin-bottom: 20px;
-    padding-top: 92px; }
-    .app__main__portfolio__subtitle__item {
-      color: #ef6d58;
-      font-size: 16px; }
-  .app__main__portfolio__title__item {
-    font-size: 56px;
-    color: white; }
-  .app__main__portfolio__links {
-    margin-top: 40px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 68px; }
-    .app__main__portfolio__links__items {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      width: 50%; }
-      .app__main__portfolio__links__items__item {
-        position: relative; }
-        .app__main__portfolio__links__items__item a {
-          text-decoration: none;
-          color: #ffffffa3; }
-        .app__main__portfolio__links__items__item span {
-          position: absolute;
-          top: -15px;
-          right: -15px;
-          color: #ffffffa3; }
-      .app__main__portfolio__links__items .active a {
-        color: white; }
-  .app__main__portfolio__items__item {
-    margin-bottom: 20px;
-    margin-right: 20px;
-    border-radius: 6px;
-    position: relative;
-    border: 1px solid black; }
-    .app__main__portfolio__items__item img {
-      width: 100% !important;
-      border-radius: 6px;
-      height: 416px;
-      object-fit: cover; }
-    .app__main__portfolio__items__item__content {
-      position: absolute;
-      top: 270px;
-      left: 48px; }
-      .app__main__portfolio__items__item__content__category {
-        background: #ffffff;
-        border-radius: 19px;
-        color: black;
-        padding: 16px;
-        margin-bottom: 20px; }
-      .app__main__portfolio__items__item__content__name__item {
-        font-family: "Epilogue";
-        font-style: normal;
-        font-weight: 800;
-        font-size: 40px;
-        line-height: 48px;
-        /* identical to box height, or 120% */
-        /* Text_Light */
-        color: #ffffff; }
-  .app__main__portfolio__btn {
-    padding-bottom: 20px; }
-    .app__main__portfolio__btn button {
-      padding: 18px 31px;
-      background-color: transparent;
-      color: white;
-      font-weight: 700;
-      border: 1px solid rgba(255, 255, 255, 0.295743);
-      border-radius: 6px; }
-
-.app__main__banner {
-  background-color: #32334c;
-  padding-bottom: 20px; }
-  .app__main__banner__content {
-    border-radius: 6px;
-    background: #fdf0e9; }
-    .app__main__banner__content__block {
-      display: flex;
-      padding: 20px; }
-      .app__main__banner__content__block__inner {
-        padding: 100px 20px 100px 50px; }
-        .app__main__banner__content__block__inner__subtitle {
-          margin-bottom: 13px; }
-          .app__main__banner__content__block__inner__subtitle__item {
-            font-family: "Epilogue";
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 32px;
-            /* identical to box height, or 200% */
-            letter-spacing: 3px;
-            text-transform: uppercase;
-            /* Text_Dark_Accent */
-            color: #ef6d58; }
-        .app__main__banner__content__block__inner__title {
-          margin-bottom: 13px; }
-          .app__main__banner__content__block__inner__title__item {
-            font-family: "Epilogue";
-            font-weight: 700;
-            font-size: 26px;
-            line-height: 32px;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-            color: #391400; }
-        .app__main__banner__content__block__inner__button button {
-          font-family: "Epilogue";
-          font-style: normal;
-          font-weight: 900;
-          font-size: 14px;
-          line-height: 14px;
-          text-align: center;
-          text-transform: uppercase;
-          background: #ef6d58;
-          border-radius: 6px;
-          padding: 18px 31px;
-          border: none;
-          color: #ffffff; }
-      .app__main__banner__content__block img {
-        align-self: center;
-        justify-self: flex-end; }
