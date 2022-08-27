@@ -665,13 +665,18 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
   background-color: #32334c;
   padding-bottom: 20px; }
   .app__main__banner__content {
+    position: relative;
     border-radius: 6px;
     background: #fdf0e9; }
     .app__main__banner__content__block {
       display: flex;
+      justify-content: flex-end;
       padding: 20px; }
       .app__main__banner__content__block__inner {
-        padding: 100px 20px 100px 50px; }
+        padding: 0 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
         .app__main__banner__content__block__inner__subtitle {
           margin-bottom: 13px; }
           .app__main__banner__content__block__inner__subtitle__item {
@@ -679,10 +684,8 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
             font-weight: 400;
             font-size: 16px;
             line-height: 32px;
-            /* identical to box height, or 200% */
             letter-spacing: 3px;
             text-transform: uppercase;
-            /* Text_Dark_Accent */
             color: #ef6d58; }
         .app__main__banner__content__block__inner__title {
           margin-bottom: 13px; }
@@ -709,7 +712,26 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
           color: #ffffff; }
       .app__main__banner__content__block img {
         align-self: center;
-        justify-self: flex-end; }
+        justify-self: center; }
+    .app__main__banner__content__icon {
+      position: absolute;
+      top: -70px;
+      left: 60px; }
+
+@media only screen and (max-width: 992px) {
+  .app__main__banner__content__block__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px; }
+  .app__main__banner__content__icon {
+    top: -50px; }
+    .app__main__banner__content__icon img {
+      width: 100px; }
+  img {
+    width: 300px; }
+  .app__main__banner__content__block {
+    justify-content: center; } }
 
 #app__main__videoreel {
   padding-top: 127px;
