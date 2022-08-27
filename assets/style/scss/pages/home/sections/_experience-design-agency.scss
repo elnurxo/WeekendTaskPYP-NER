@@ -3,7 +3,7 @@
   .logos {
     display: flex;
     justify-content: space-between;
-    padding: 4rem 0;
+    padding: 6% 0;
     img {
       object-fit: contain;
       width: 10%;
@@ -19,29 +19,21 @@
     padding: 5rem 0;
     .upper {
       display: flex;
+      flex-wrap: wrap;
       margin-bottom: 130px;
-
-      img {
-        width: 550px;
-      }
+        img {
+          width: 50%;
+          @include for-tablet-landscape-up{
+            width: 100%;
+          }
+        }
       .text {
+        width: 50%;
         padding-left: 7rem;
         padding-top: 4rem;
-        span {
-          color: $orange;
-          font-size: 16px;
-          line-height: 32px;
-          font-weight: 400;
-          margin-bottom: 15px;
-          display: inline-block;
-        }
-        h2 {
-          color: $text-dark;
-          font-size: 45px;
-          font-weight: 800;
-          letter-spacing: -1px;
-          text-align: left;
-          margin-bottom: 18px;
+        @include for-tablet-landscape-up{
+          padding: 2% 0 0 0;
+          width: 100%;
         }
         h6 {
           color: $text-dark;
@@ -49,13 +41,6 @@
           font-size: 20px;
           line-height: 32px;
           margin-bottom: 18px;
-        }
-        p {
-          color: $text-dark-grey;
-          font-weight: 400;
-          font-size: 14.5px;
-          line-height: 32px;
-          margin-bottom: 30px;
         }
       }
     }
@@ -75,11 +60,11 @@
           font-size: 18px;
           line-height: 32px;
           color: $text-dark;
+          @include for-tablet-landscape-up{
+
+          }
         }
       }
-    //   .box:last-of-type{
-    //     border-radius: 6px 0px 0px 6px;
-    //   }
     }
     .col-4:first-child .box{
         border-radius: 6px 0px 0px 6px;
@@ -89,3 +74,5 @@
     }
   }
 }
+
+
