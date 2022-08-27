@@ -73,6 +73,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
   border: 1px solid white;
   border-radius: 6px;
   padding: 1rem 1.5rem;
+  box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
   box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08); }
 
 .icon--small {
@@ -108,7 +109,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
   padding-right: 15%; }
 
 .section--paragraph {
-  color: #391400 !important;
+  color: rgba(57, 20, 0, 0.64) !important;
   font-weight: 400 !important;
   font-size: 14.5px !important;
   line-height: 32px !important;
@@ -811,7 +812,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
     #app__main__videoreel .videoreel--content__wrapper article p {
       font-size: 16px;
       line-height: 32px;
-      color: #391400; }
+      color: rgba(57, 20, 0, 0.64); }
 
 .app__header {
   width: 100%;
@@ -864,6 +865,170 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
         border: 1px solid rgba(255, 255, 255, 0.295743);
         border-radius: 6px;
         font-size: 24px; } }
+
+#service {
+  background-color: #FDF0E9;
+  padding-bottom: 10%; }
+  #service .upper {
+    padding-bottom: 10%; }
+    #service .upper .main {
+      object-fit: contain;
+      width: 100%; }
+      @media (max-width: 992px) {
+        #service .upper .main {
+          width: 100%;
+          order: 1; } }
+    #service .upper .text {
+      padding-top: 4rem;
+      padding-left: 13%;
+      width: 100%; }
+      @media (max-width: 992px) {
+        #service .upper .text {
+          padding: 2% 0 0 0;
+          width: 100%;
+          order: 2; } }
+    #service .upper .comment-wrapper {
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 5%; }
+      #service .upper .comment-wrapper img {
+        object-fit: contain; }
+      #service .upper .comment-wrapper .comment {
+        padding-left: 5%; }
+        #service .upper .comment-wrapper .comment h6 {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 32px;
+          color: #391400; }
+        #service .upper .comment-wrapper .comment p {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 24px;
+          color: rgba(57, 20, 0, 0.64);
+          margin-bottom: 2%; }
+  #service .lower h2 {
+    padding-right: 60%;
+    margin-bottom: 7%; }
+    @media (max-width: 992px) {
+      #service .lower h2 {
+        padding: 0; } }
+  #service .lower .boxes {
+    display: flex;
+    flex-wrap: wrap; }
+    #service .lower .boxes .box {
+      padding: 4%;
+      border: 1px solid #f3d1bf;
+      width: 33.33%; }
+      @media (max-width: 992px) {
+        #service .lower .boxes .box {
+          width: 100%; } }
+      #service .lower .boxes .box i {
+        background-color: #EF6D58;
+        font-size: 24px;
+        color: white;
+        padding: 20px;
+        border-radius: 50%;
+        margin-bottom: 10%; }
+      #service .lower .boxes .box h4 {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 10%;
+        color: #391400; }
+      #service .lower .boxes .box p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: rgba(57, 20, 0, 0.64);
+        margin-bottom: 17%; }
+      #service .lower .boxes .box a {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: #391400; }
+    #service .lower .boxes .box:first-child {
+      border-radius: 6px 0px 0px 6px; }
+    #service .lower .boxes .box:last-child {
+      border-radius: 0px 6px 6px 0px; }
+
+#pricing {
+  background-color: #FDF0E9;
+  padding-bottom: 10%; }
+  #pricing h2 {
+    padding-right: 70%;
+    margin-bottom: 2%; }
+    @media (max-width: 992px) {
+      #pricing h2 {
+        padding: 0; } }
+  #pricing .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end; }
+    #pricing .boxes .box {
+      width: 33.33%;
+      overflow: hidden;
+      border: 1px solid #F3D1BF;
+      border-radius: 6px 6px 0px 0px;
+      padding: 3% 4%; }
+      @media (max-width: 992px) {
+        #pricing .boxes .box {
+          width: 100%; } }
+      #pricing .boxes .box h4 {
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 48px;
+        color: #391400;
+        margin-bottom: 2%; }
+      #pricing .boxes .box p {
+        padding-right: 13%;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 30px;
+        color: rgba(57, 20, 0, 0.64);
+        margin-bottom: 10%; }
+      #pricing .boxes .box ul li {
+        vertical-align: middle;
+        margin-bottom: 10%; }
+      #pricing .boxes .box ul i {
+        background-color: #EF6D58;
+        font-size: 7px;
+        color: white;
+        padding: 5px;
+        border-radius: 50%; }
+      #pricing .boxes .box ul .fa-minus {
+        background-color: #f6daca; }
+      #pricing .boxes .box span {
+        display: block; }
+      #pricing .boxes .box .badge {
+        display: inline-block;
+        color: white;
+        font-size: 13px;
+        padding: 3%;
+        text-align: center;
+        background-color: #ed8575;
+        border-radius: 19px;
+        vertical-align: middle;
+        position: absolute;
+        top: 3%;
+        left: 9%; }
+        @media (max-width: 992px) {
+          #pricing .boxes .box .badge {
+            left: 2%; } }
+      #pricing .boxes .box button {
+        margin-top: 4%; }
+    #pricing .boxes .active {
+      background-color: white;
+      align-self: baseline;
+      position: relative;
+      padding-top: 6%; }
+      @media (max-width: 992px) {
+        #pricing .boxes .active {
+          padding-top: 20%; } }
+  #pricing .boxes .box:first-child {
+    border-radius: 6px 0px 0px 6px; }
+  #pricing .boxes .box:last-child {
+    border-radius: 0px 6px 6px 0px; }
 
 #app__main__testimonials {
   background-color: #FDF0E9;
@@ -927,96 +1092,13 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
   #app__main__testimonials .testimonials-button {
     text-align: center; }
 
-#service {
-  background-color: #FDF0E9;
-  padding-bottom: 10%; }
-  #service .upper {
-    padding-bottom: 10%; }
-    #service .upper .main {
-      object-fit: contain;
-      width: 100%; }
-      @media (max-width: 992px) {
-        #service .upper .main {
-          width: 100%;
-          order: 1; } }
-    #service .upper .text {
-      padding-top: 4rem;
-      padding-left: 13%;
-      width: 100%; }
-      @media (max-width: 992px) {
-        #service .upper .text {
-          padding: 2% 0 0 0;
-          width: 100%;
-          order: 2; } }
-    #service .upper .comment-wrapper {
-      width: 100%;
-      display: flex;
-      align-items: flex-start;
-      margin-bottom: 5%; }
-      #service .upper .comment-wrapper img {
-        object-fit: contain; }
-      #service .upper .comment-wrapper .comment {
-        padding-left: 5%; }
-        #service .upper .comment-wrapper .comment h6 {
-          font-weight: 400;
-          font-size: 16px;
-          line-height: 32px;
-          color: #391400; }
-        #service .upper .comment-wrapper .comment p {
-          font-weight: 400;
-          font-size: 14px;
-          line-height: 24px;
-          color: rgba(57, 20, 0, 0.64);
-          margin-bottom: 2%; }
-  #service .lower h2 {
-    padding-right: 60%;
-    margin-bottom: 7%; }
-  #service .lower .boxes {
-    display: flex;
-    flex-wrap: wrap; }
-    #service .lower .boxes .box {
-      padding: 4%;
-      border: 1px solid #f3d1bf;
-      width: 33.33%; }
-      @media (max-width: 992px) {
-        #service .lower .boxes .box {
-          width: 100%; } }
-      #service .lower .boxes .box i {
-        background-color: #EF6D58;
-        font-size: 24px;
-        color: white;
-        padding: 20px;
-        border-radius: 50%;
-        margin-bottom: 10%; }
-      #service .lower .boxes .box h4 {
-        font-weight: 700;
-        font-size: 22px;
-        line-height: 32px;
-        margin-bottom: 10%;
-        color: #391400; }
-      #service .lower .boxes .box p {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 32px;
-        color: rgba(57, 20, 0, 0.64);
-        margin-bottom: 17%; }
-      #service .lower .boxes .box a {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 32px;
-        color: #391400; }
-    #service .lower .boxes .box:first-child {
-      border-radius: 6px 0px 0px 6px; }
-    #service .lower .boxes .box:last-child {
-      border-radius: 0px 6px 6px 0px; }
-
 #faqs {
   background-color: #FDF0E9; }
   #faqs .faqs-content h3 {
     font-size: 40px;
     line-height: 48px; }
   #faqs .faqs-content p {
-    color: #391400;
+    color: rgba(57, 20, 0, 0.64);
     font-size: 16px;
     line-height: 32px;
     margin-bottom: 29px; }
@@ -1046,7 +1128,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
       font-weight: 400;
       font-size: 16px;
       line-height: 32px;
-      color: #391400; }
+      color: rgba(57, 20, 0, 0.64); }
   #faqs .faqs-accordion__item .accordion--title {
     align-self: center;
     font-weight: 700;

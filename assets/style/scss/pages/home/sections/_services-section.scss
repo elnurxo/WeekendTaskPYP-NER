@@ -51,16 +51,19 @@
     h2 {
       padding-right: 60%;
       margin-bottom: 7%;
+      @include for-tablet-landscape-up {
+        padding: 0;
+      }
     }
     .boxes {
       display: flex;
-        flex-wrap: wrap;
+      flex-wrap: wrap;
       .box {
         padding: 4%;
         border: 1px solid #f3d1bf;
         width: 33.33%;
         @include for-tablet-landscape-up {
-            width: 100%
+          width: 100%;
         }
         i {
           @include icon(24px, 20px);
