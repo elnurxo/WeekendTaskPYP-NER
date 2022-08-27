@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "name": "weekendtaskpyp-ner",
+  "description": "This is a clone of The North Face Web Application",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "sass" : "node-sass assets/style/scss/main.scss -o assets/style/css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elnurxo/WeekendTaskPYP-NER.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elnurxo/WeekendTaskPYP-NER/issues"
+  },
+  "homepage": "https://github.com/elnurxo/WeekendTaskPYP-NER#readme"
+}
