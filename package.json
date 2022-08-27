@@ -5,7 +5,7 @@
   "scripts": {
     "sass": "node-sass assets/style/scss/main.scss -o assets/style/css -w"
   },
-  "name": "weekendtaskpyp-ner",
+  "name": "clear",
   "description": "Weekend PYP Team Task",
   "version": "1.0.0",
   "main": "index.js",

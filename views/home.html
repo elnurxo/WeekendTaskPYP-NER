@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -18,7 +17,7 @@
 </head>
 
 <body>
-  <header class="app__header">
+  <header class="app__header app__header__desktop">
     <div class="container">
       <div class="row">
         <div class="col-3">
@@ -40,24 +39,36 @@
               <a href="#">Pricing</a>
             </li>
 
-            <li class="app__header__links__item">
-              <a href="#">Blog</a>
-            </li>
-          </ul>
+              <li class="app__header__links__item">
+                <a href="#">Blog</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <div class="app__header__button">
+              <button>Contact</button>
         </div>
-        <div class="col-3">
-          <div class="app__header__button">
-            <button>Contact</button>
+      </div>
+    </header>
+    <header class="app__header app__header__mobile">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <img src="../assets/images/logo.png" alt="" />
+          </div>
+          <div class="col-6">
+            <div class="burger">
+              <i class="fa-solid fa-bars"></i>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </header>
+    </header>
   <main class="app__main">
     <section class="app__main__hero">
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-6 col-md-12">
             <div class="app__main__hero__content">
               <div class="app__main__hero__content__subtitle">
                 <h4 class="app__main__hero__content__subtitle__item">
@@ -102,8 +113,8 @@
               </div>
             </div>
           </div>
-          <div class="col-6">
-            <img style="width: 100%" src="../assets/images/pic.png" alt="" />
+          <div class="col-6 col-md-12">
+            <img style="width: 100%;" src="../assets/images/pic.png" alt="">
           </div>
           <hr />
           
@@ -156,9 +167,7 @@
                 </div>
               </div>
             </div>
-          </div>
         </div>
-      </div>
     </section>
     <section class="app__main__features">
       <div class="container">
@@ -240,10 +249,8 @@
                 <h3>Unlock The Greatest Value Possible</h3>
                 <p>Design, business understanding, ability to put themselves in the merchant's shoes meant to partner.</p>
               </article>
-            </div>
-          </div>
-        </div>
-      </section>
+      </section> 
+      
     <section id="give-new-look">
         <div class="container">
           <div class="row">
@@ -279,6 +286,186 @@
                     <p>Business understanding, ability to put themselves.</p>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="app__main__portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="app__main__portfolio__subtitle">
+                <p class="app__main__portfolio__subtitle__item">PORTFOLIO</p>
+              </div>
+              <div class="app__main__portfolio__title">
+                <div class="app__main__portfolio__title__item">LATEST WORK</div>
+              </div>
+              <div class="app__main__portfolio__links">
+                <ul class="app__main__portfolio__links__items">
+                  <li class="app__main__portfolio__links__items__item active">
+                    <a href="#">Show All</a>
+                    <span>14</span>
+                  </li>
+                  <li class="app__main__portfolio__links__items__item">
+                    <a href="#">Design</a>
+                    <span>14</span>
+                  </li>
+                  <li class="app__main__portfolio__links__items__item">
+                    <a href="#">Branding</a>
+                    <span>14</span>
+                  </li>
+                  <li class="app__main__portfolio__links__items__item">
+                    <a href="#">Illustration</a>
+                    <span>14</span>
+                  </li>
+                  <li class="app__main__portfolio__links__items__item">
+                    <a href="#">Motion</a>
+                    <span>14</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="app__main__portfolio__items">
+                <div class="row">
+                  <div class="col-4 col-md-12">
+                    <div class="app__main__portfolio__items__item">
+                      <img src="../assets/images/img1.png" alt="" />
+                      <div class="app__main__portfolio__items__item__content">
+                        <div
+                          class="app__main__portfolio__items__item__content__category"
+                        >
+                          <p
+                            class="app__main__portfolio__items__item__content__category__item"
+                          >
+                            Design
+                          </p>
+                        </div>
+                        <div
+                          class="app__main__portfolio__items__item__content__name"
+                        >
+                          <p
+                            class="app__main__portfolio__items__item__content__name__item"
+                          >
+                            Sofa
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-8 col-md-12">
+                    <div class="app__main__portfolio__items__item">
+                      <img src="../assets/images/img3.png" alt="" />
+                      <div class="app__main__portfolio__items__item__content">
+                        <div
+                          class="app__main__portfolio__items__item__content__category"
+                        >
+                          <p
+                            class="app__main__portfolio__items__item__content__category__item"
+                          >
+                            Branding
+                          </p>
+                        </div>
+                        <div
+                          class="app__main__portfolio__items__item__content__name"
+                        >
+                          <p
+                            class="app__main__portfolio__items__item__content__name__item"
+                          >
+                            KeyBoard
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-8 col-md-12">
+                    <div class="app__main__portfolio__items__item">
+                      <div class="app__main__portfolio__items__item__image">
+                        <img src="../assets/images/img4.png" alt="" />
+                      </div>
+                      <div class="app__main__portfolio__items__item__content">
+                        <div
+                          class="app__main__portfolio__items__item__content__category"
+                        >
+                          <p
+                            class="app__main__portfolio__items__item__content__category__item"
+                          >
+                            Illustration
+                          </p>
+                        </div>
+                        <div
+                          class="app__main__portfolio__items__item__content__name"
+                        >
+                          <p
+                            class="app__main__portfolio__items__item__content__name__item"
+                          >
+                            Work Media
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4 col-md-12">
+                    <div class="app__main__portfolio__items__item">
+                      <img src="../assets/images/img5.png" alt="" />
+                      <div class="app__main__portfolio__items__item__content">
+                        <div
+                          class="app__main__portfolio__items__item__content__category"
+                        >
+                          <p
+                            class="app__main__portfolio__items__item__content__category__item"
+                          >
+                            Motion
+                          </p>
+                        </div>
+                        <div
+                          class="app__main__portfolio__items__item__content__name"
+                        >
+                          <p
+                            class="app__main__portfolio__items__item__content__name__item"
+                          >
+                            DDDone
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="app__main__portfolio__btn">
+                <button>Exploore More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="app__main__banner">
+        <div class="container">
+          <div class="app__main__banner__content">
+            <div class="row">
+              <div class="col-4 app__main__banner__content__block">
+                <div class="app__main__banner__content__block__inner">
+                  <div class="app__main__banner__content__block__inner__subtitle">
+                    <p
+                      class="app__main__banner__content__block__inner__subtitle__item"
+                    >
+                      GET STARTED
+                    </p>
+                  </div>
+                  <div class="app__main__banner__content__block__inner__title">
+                    <h3 class="app__main__banner__content__block__inner__title__item">
+                      We Help Companies Move Faster
+                    </h3>
+                  </div>
+                  <div class="app__main__banner__content__block__inner__button">
+                    <button>Contact Us</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 app__main__banner__content__block">
+                <img src="../assets/images/img7.png" alt="" />
+              </div>
+              <div class="col-4 app__main__banner__content__block">
+                <img src="../assets/images/img8.png" alt="" />
               </div>
             </div>
           </div>
@@ -328,5 +515,4 @@
     </div>
   </footer>
 </body>
-
 </html>
