@@ -1,0 +1,23 @@
+@import '../abstracts/color';
+.footer{
+    &__item{
+        display: flex;
+        justify-content: space-between;
+        &--agency{
+            font-size: 24px;
+            line-height: 32px;
+            font-weight: 700;
+            color: green;
+        }
+        &--link{
+            h5{
+                color: $orange;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 32px;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

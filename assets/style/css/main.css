@@ -1,4 +1,3 @@
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -43,6 +42,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+h1, h2, h3, h4, h5, h6, p, span, a, button {
+  font-family: "Epilogue"; }
+
 .btn--primary {
   font-weight: 900;
   font-size: 14px;
@@ -60,9 +62,6 @@ table {
   color: white;
   padding: 30px;
   border-radius: 50%; }
-=======
-h1, h2, h3, h4, h5, h6, p, span, a, button {
-  font-family: "Epilogue"; }
 
 .container {
   width: 1032px;
@@ -102,3 +101,23 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
     justify-content: center; }
     .app__header__button button {
       padding: 5px 10px; }
+
+.footer__item {
+  display: flex;
+  justify-content: space-between; }
+  .footer__item--agency {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: green; }
+  .footer__item--link h5 {
+    color: #EF6D58;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase; }
+
+* {
+  margin: 0;
+  padding: 0; }
