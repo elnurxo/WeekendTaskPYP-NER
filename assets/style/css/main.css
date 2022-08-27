@@ -44,6 +44,7 @@ table {
 
 a {
   text-decoration: none; }
+
 * {
   font-family: "Epilogue"; }
 
@@ -303,3 +304,6 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
 * {
   margin: 0;
   padding: 0; }
+
+h1 {
+  color: red; }
