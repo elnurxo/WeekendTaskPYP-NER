@@ -1,5 +1,8 @@
 .app__header {
-  border: solid;
+  width: 100%;
+  background-color: #32334c;
+  position: fixed;
+  padding: 16px;
   &__logo {
   }
   &__links {
@@ -11,7 +14,7 @@
     &__item {
       a {
         text-decoration: none;
-        color: black;
+        color: white;
       }
     }
   }
@@ -21,7 +24,151 @@
     align-items: center;
     justify-content: center;
     button {
-      padding: 5px 10px;
+        background: transparent;
+        border-radius: 6px;
+        padding: 18px 22px;
+        color: white;
+        border: 1px solid lightgrey;
+        font-weight: bold;
     }
+  }
+}
+.app__main {
+    &__hero {
+    background-color: #32334c;
+    padding-top: 178px;
+    &__content {
+      &__subtitle {
+        margin-bottom: 24px;
+        &__item {
+          color: #ef6d58;
+        }
+      }
+      &__title {
+        margin-bottom: 24px;
+        &__item {
+          font-size: 72px;
+          color: white;
+        }
+      }
+      &__desc {
+        &__item {
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 32px;
+          color: rgba(255, 255, 255, 0.64);
+        }
+      }
+      &__buttons {
+        padding: 10px 0;
+
+        margin-bottom: 108px;
+        &--orange {
+          margin-right: 48px;
+          background: #ef6d58;
+          border-radius: 6px;
+          padding: 18px 22px;
+          color: white;
+          border: none;
+          font-weight: bold;
+        }
+        &--transparent {
+          background-color: transparent;
+          border: none;
+          color: white;
+        }
+      }
+      &__testimonial {
+        padding-bottom: 64px;
+        display: flex;
+        &__image {
+          margin-right: 20px;
+          padding: 10px;
+        }
+        &__body {
+          &__desc {
+            &__item {
+              font-family: "Epilogue";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 32px;
+              color: rgba(255, 255, 255, 0.64);
+            }
+          }
+          &__author {
+            &__item {
+              /* Text */
+
+              font-family: "Epilogue";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 32px;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+  &__features{
+    border: solid;
+    background-color: #fdf0e9;
+    &__subtitle {
+        margin-bottom: 24px;
+        &__item {
+          color: #ef6d58;
+        }
+      }
+      &__title {
+        margin-bottom: 24px;
+        &__item {
+            font-weight: 800;
+          font-size: 48px;
+          color: #391400;
+        }
+      }
+      &__desc {
+        &__item {
+          font-size: 16px;
+          font-weight: 400;
+          font-size: 16px;
+          font-weight:700 ;
+          line-height: 32px;
+          color: #391400A3;
+        }
+      }
+      &__items{
+        margin-top: 90px;
+        &__item{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 32px 0;
+            &__count{
+                font-size: 72px;
+                color: #391400;
+                font-weight: 800;
+            }
+            &__desc{
+                font-weight: 700;
+                color: #391400;
+                font-size: 36px !important;
+            }
+        }
+      }
+      &__button{
+
+        button{
+            color: #391400;
+            border: none;
+            background-color: transparent;
+            margin-top: 28px;
+
+        }
+      }
   }
 }
