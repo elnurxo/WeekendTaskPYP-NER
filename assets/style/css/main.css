@@ -1,3 +1,4 @@
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -59,10 +60,45 @@ table {
   color: white;
   padding: 30px;
   border-radius: 50%; }
+=======
+h1, h2, h3, h4, h5, h6, p, span, a, button {
+  font-family: "Epilogue"; }
 
-* {
-  margin: 0;
-  padding: 0; }
+.container {
+  width: 1032px;
+  margin: 0 auto; }
 
-h1 {
-  color: red; }
+.row {
+  display: flex;
+  flex-wrap: wrap; }
+
+.col-3 {
+  width: 24.99999%; }
+
+.col-4 {
+  width: 33.33333%; }
+
+.col-6 {
+  width: 49.99999%; }
+
+.col-12 {
+  width: 100%; }
+
+.app__header {
+  border: solid; }
+  .app__header__links {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    .app__header__links__item a {
+      text-decoration: none;
+      color: black; }
+  .app__header__button {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .app__header__button button {
+      padding: 5px 10px; }
