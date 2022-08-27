@@ -1,3 +1,6 @@
+* {
+  font-family: "Epilogue"; }
+
 @-ms-viewport {
   width: device-width; }
 
@@ -1836,7 +1839,7 @@ html {
 
 .app__header {
   width: 100%;
-  background-color: #32334C;
+  background-color: #32334c;
   position: fixed;
   padding: 16px; }
   .app__header__links {
@@ -1854,10 +1857,68 @@ html {
     align-items: center;
     justify-content: center; }
     .app__header__button button {
-      padding: 5px 10px; }
+      background: transparent;
+      border-radius: 6px;
+      padding: 18px 22px;
+      color: white;
+      border: 1px solid lightgrey;
+      font-weight: bold; }
 
-.app__main .app__main__hero {
-  padding-top: 178px; }
+.app__main {
+  background-color: #32334c; }
+  .app__main__hero {
+    padding-top: 178px; }
+    .app__main__hero__content__subtitle {
+      margin-bottom: 24px; }
+      .app__main__hero__content__subtitle__item {
+        color: #ef6d58; }
+    .app__main__hero__content__title {
+      margin-bottom: 24px; }
+      .app__main__hero__content__title__item {
+        font-size: 72px;
+        color: white; }
+    .app__main__hero__content__desc__item {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+      color: rgba(255, 255, 255, 0.64); }
+    .app__main__hero__content__buttons {
+      padding: 10px 0;
+      margin-bottom: 108px; }
+      .app__main__hero__content__buttons--orange {
+        margin-right: 48px;
+        background: #ef6d58;
+        border-radius: 6px;
+        padding: 18px 22px;
+        color: white;
+        border: none;
+        font-weight: bold; }
+      .app__main__hero__content__buttons--transparent {
+        background-color: transparent;
+        border: none;
+        color: white; }
+    .app__main__hero__content__testimonial {
+      display: flex; }
+      .app__main__hero__content__testimonial__image {
+        margin-right: 20px;
+        padding: 10px; }
+      .app__main__hero__content__testimonial__body__desc__item {
+        font-family: "Epilogue";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: rgba(255, 255, 255, 0.64); }
+      .app__main__hero__content__testimonial__body__author__item {
+        /* Text */
+        font-family: "Epilogue";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: #ffffff; }
 
 * {
   margin: 0;
