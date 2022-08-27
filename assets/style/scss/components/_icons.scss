@@ -1,3 +1,6 @@
-.icon--primary{
-    @include icon(10px, 30px);
+.icon--small{
+    @include icon(15px, 6px);
+}
+.icon--large{
+    @include icon(20px, 12px)
 }
