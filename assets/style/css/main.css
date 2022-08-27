@@ -302,6 +302,62 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
       line-height: 32px;
       color: #ffffff; }
 
+.app__main__hero {
+  background-color: #32334c;
+  padding-top: 178px; }
+  .app__main__hero__content__subtitle {
+    margin-bottom: 24px; }
+    .app__main__hero__content__subtitle__item {
+      color: #ef6d58; }
+  .app__main__hero__content__title {
+    margin-bottom: 24px; }
+    .app__main__hero__content__title__item {
+      font-size: 72px;
+      color: white; }
+  .app__main__hero__content__desc__item {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.64); }
+  .app__main__hero__content__buttons {
+    padding: 10px 0;
+    margin-bottom: 108px; }
+    .app__main__hero__content__buttons--orange {
+      margin-right: 48px;
+      background: #ef6d58;
+      border-radius: 6px;
+      padding: 18px 22px;
+      color: white;
+      border: none;
+      font-weight: bold; }
+    .app__main__hero__content__buttons--transparent {
+      background-color: transparent;
+      border: none;
+      color: white; }
+  .app__main__hero__content__testimonial {
+    padding-bottom: 64px;
+    display: flex; }
+    .app__main__hero__content__testimonial__image {
+      margin-right: 20px;
+      padding: 10px; }
+    .app__main__hero__content__testimonial__body__desc__item {
+      font-family: "Epilogue";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+      color: rgba(255, 255, 255, 0.64); }
+    .app__main__hero__content__testimonial__body__author__item {
+      /* Text */
+      font-family: "Epilogue";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+      color: #ffffff; }
+
 #experience-design-agency {
   background-color: #FDF0E9; }
   #experience-design-agency .logos {
@@ -420,7 +476,6 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
     border: none;
     background-color: transparent;
     margin-top: 28px; }
-
 .app__main__portfolio {
   background-color: #32334c;
   font-family: "Epilogue";
@@ -548,3 +603,82 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
       .app__main__banner__content__block img {
         align-self: center;
         justify-self: flex-end; }
+=======
+#app__main__videoreel {
+  padding-top: 127px;
+  padding-bottom: 215px;
+  background-color: #FDF0E9; }
+  @media (max-width: 992px) {
+    #app__main__videoreel {
+      padding-top: 63px;
+      padding-bottom: 81px; } }
+  #app__main__videoreel .videoreel__row {
+    display: flex;
+    justify-content: space-between; }
+  #app__main__videoreel .app__main__videoreel__imagewrapper {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    position: relative; }
+    #app__main__videoreel .app__main__videoreel__imagewrapper img {
+      width: 100%;
+      height: 100%; }
+    #app__main__videoreel .app__main__videoreel__imagewrapper .image-overlay {
+      border-radius: 6px;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      opacity: 28%; }
+    #app__main__videoreel .app__main__videoreel__imagewrapper .play__btn {
+      position: absolute;
+      top: 37%;
+      left: 50%;
+      transform: translateY(-50%);
+      transform: translateX(-50%);
+      border: 1px solid white;
+      border-radius: 50%;
+      padding: 54px;
+      color: white; }
+      @media (max-width: 992px) {
+        #app__main__videoreel .app__main__videoreel__imagewrapper .play__btn {
+          top: 40%; } }
+      @media (max-width: 576px) {
+        #app__main__videoreel .app__main__videoreel__imagewrapper .play__btn {
+          top: 25%; } }
+    #app__main__videoreel .app__main__videoreel__imagewrapper .videoreel--time {
+      position: absolute;
+      color: white;
+      height: 32px;
+      left: 33px;
+      bottom: 20px;
+      border-radius: 6px;
+      padding: 2px 9px;
+      background: #570b00;
+      display: flex;
+      align-items: center; }
+  #app__main__videoreel .videoreel--content__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 150px; }
+    @media (max-width: 992px) {
+      #app__main__videoreel .videoreel--content__wrapper {
+        padding-left: 0;
+        padding-top: 24px; } }
+    #app__main__videoreel .videoreel--content__wrapper article h5 {
+      color: #EF6D58;
+      letter-spacing: 3px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 32px; }
+    #app__main__videoreel .videoreel--content__wrapper article h3 {
+      color: #391400;
+      font-size: 40px;
+      font-weight: 800;
+      line-height: 48px;
+      margin-bottom: 28px; }
+    #app__main__videoreel .videoreel--content__wrapper article p {
+      font-size: 16px;
+      line-height: 32px;
+      color: #391400; }
