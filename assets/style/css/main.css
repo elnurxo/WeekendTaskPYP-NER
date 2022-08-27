@@ -456,7 +456,6 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
       line-height: 32px;
       color: rgba(255, 255, 255, 0.64); }
     .app__main__hero__content__testimonial__body__author__item {
-      /* Text */
       font-family: "Epilogue";
       font-style: normal;
       font-weight: 400;
@@ -852,3 +851,118 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
         border: 1px solid rgba(255, 255, 255, 0.295743);
         border-radius: 6px;
         font-size: 24px; } }
+
+.app__main__events {
+  background-color: #32334c;
+  padding-bottom: 20px; }
+  .app__main__events__header {
+    text-align: center;
+    margin-bottom: 50px; }
+    .app__main__events__header__subtitle {
+      margin-bottom: 20px;
+      padding-top: 92px; }
+      .app__main__events__header__subtitle__item {
+        color: #ef6d58;
+        font-size: 16px; }
+    .app__main__events__header__title__item {
+      font-size: 40px;
+      color: white; }
+  .app__main__events__content__items__item {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #3a3c56;
+    border-radius: 6px;
+    margin-right: 20px; }
+    .app__main__events__content__items__item__header {
+      padding: 20px; }
+      .app__main__events__content__items__item__header__date {
+        display: flex; }
+        .app__main__events__content__items__item__header__date__day {
+          margin-right: 20px; }
+          .app__main__events__content__items__item__header__date__day span {
+            display: flex;
+            font-family: "Epilogue";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 72px;
+            line-height: 80px;
+            letter-spacing: -2px;
+            color: #ffffff; }
+        .app__main__events__content__items__item__header__date__fulldate {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start; }
+          .app__main__events__content__items__item__header__date__fulldate__month {
+            font-family: "Epilogue";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            color: #ffffff;
+            display: block; }
+          .app__main__events__content__items__item__header__date__fulldate__year {
+            display: flex;
+            font-family: "Epilogue";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            color: #ffffff; }
+      .app__main__events__content__items__item__header__time {
+        display: flex;
+        align-items: center;
+        padding-bottom: 40px; }
+        .app__main__events__content__items__item__header__time i {
+          color: orangered;
+          margin-right: 10px; }
+        .app__main__events__content__items__item__header__time span {
+          font-family: "Epilogue";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 32px;
+          margin-right: 10px;
+          color: #ffffff; }
+      .app__main__events__content__items__item__header .hr {
+        background-color: #3a3c56 !important; }
+    .app__main__events__content__items__item__body {
+      padding: 20px; }
+      .app__main__events__content__items__item__body__title {
+        margin-bottom: 20px; }
+        .app__main__events__content__items__item__body__title__item {
+          font-family: "Epilogue";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 32px;
+          color: #ffffff; }
+      .app__main__events__content__items__item__body__desc {
+        margin-bottom: 20px; }
+        .app__main__events__content__items__item__body__desc__item {
+          font-family: "Epilogue";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 32px;
+          color: rgba(255, 255, 255, 0.64); }
+      .app__main__events__content__items__item__body__button__item {
+        background-color: transparent;
+        border: none;
+        font-family: "Epilogue";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: #ffffff; }
+  .app__main__events__content__button {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .app__main__events__content__button button {
+      padding: 18px 30px;
+      border: 1px solid rgba(255, 255, 255, 0.295743);
+      border-radius: 6px;
+      background-color: transparent;
+      color: white;
+      font-weight: 700; }
