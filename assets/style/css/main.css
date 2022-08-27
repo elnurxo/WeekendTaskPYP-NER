@@ -75,9 +75,9 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
 
 .icon--primary {
   background-color: #EF6D58;
-  font-size: 10px;
+  font-size: 15px;
   color: white;
-  padding: 30px;
+  padding: 6px;
   border-radius: 50%; }
 
 .container {
@@ -289,10 +289,12 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
     padding: 5rem 0; }
     #experience-design-agency #about .upper {
       display: flex;
+      flex-wrap: wrap;
       margin-bottom: 130px; }
       #experience-design-agency #about .upper img {
-        width: 550px; }
+        width: 50%; }
       #experience-design-agency #about .upper .text {
+        width: 50%;
         padding-left: 7rem;
         padding-top: 4rem; }
         #experience-design-agency #about .upper .text span {
@@ -387,3 +389,44 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
     border: none;
     background-color: transparent;
     margin-top: 28px; }
+
+#give-new-look {
+  background-color: #FDF0E9; }
+  #give-new-look .text {
+    padding-top: 4rem;
+    padding-right: 30%; }
+    #give-new-look .text span {
+      color: #ed8575;
+      font-size: 16px;
+      line-height: 32px;
+      font-weight: 400;
+      margin-bottom: 15px;
+      display: inline-block; }
+    #give-new-look .text h2 {
+      color: #391400;
+      font-size: 45px;
+      font-weight: 800;
+      letter-spacing: -1px;
+      text-align: left;
+      margin-bottom: 18px;
+      padding-right: 15%; }
+    #give-new-look .text h6 {
+      color: #391400;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 32px;
+      margin-bottom: 18px; }
+    #give-new-look .text p {
+      color: #391400;
+      font-weight: 400;
+      font-size: 14.5px;
+      line-height: 32px;
+      margin-bottom: 30px; }
+    #give-new-look .text ul li {
+      margin-bottom: 4%;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+      color: rgba(57, 20, 0, 0.64); }
+      #give-new-look .text ul li i {
+        margin-right: 2%; }
