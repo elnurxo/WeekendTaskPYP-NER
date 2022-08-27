@@ -40,6 +40,22 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
     .app__header__button button {
       padding: 5px 10px; }
 
+.footer__item {
+  display: flex;
+  justify-content: space-between; }
+  .footer__item--agency {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: green; }
+  .footer__item--link h5 {
+    color: #EF6D58;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase; }
+
 * {
   margin: 0;
   padding: 0; }
