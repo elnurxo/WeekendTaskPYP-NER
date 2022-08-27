@@ -102,7 +102,9 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
 
 @media (max-width: 992px) {
   .col-md-12 {
-    width: 100%; } }
+    width: 100%; }
+  .col-md-6 {
+    width: 50%; } }
 
 .app__header {
   width: 100%;
@@ -258,7 +260,8 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
-    color: rgba(255, 255, 255, 0.64); }
+    color: rgba(255, 255, 255, 0.64);
+    margin-bottom: 20px; }
   .app__main__hero__content__buttons {
     padding: 10px 0;
     margin-bottom: 108px; }
@@ -401,11 +404,13 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
       margin: 32px 0; }
       .app__main__features__items__item__count {
         font-size: 72px;
+        margin-right: 20px;
         color: #391400;
         font-weight: 800; }
       .app__main__features__items__item__desc {
         font-weight: 700;
         color: #391400;
+        line-height: 30px;
         font-size: 24px; }
   .app__main__features__button button {
     color: #391400;
