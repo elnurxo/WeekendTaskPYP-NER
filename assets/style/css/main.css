@@ -42,14 +42,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-<<<<<<< HEAD
-=======
 a {
   text-decoration: none; }
+
 * {
   font-family: "Epilogue"; }
 
->>>>>>> 4c3d2dcdf3b5ed132e89da500e203ed1cc61b6df
 h1, h2, h3, h4, h5, h6, p, span, a, button {
   font-family: "Epilogue"; }
 
@@ -60,7 +58,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
   text-transform: uppercase;
   background-color: #ed8575;
   color: white;
-  border: none;
+  border: 1px solid #ed8575;
   border-radius: 6px;
   padding: 1rem 1.5rem; }
 
@@ -71,7 +69,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
   text-transform: uppercase;
   background-color: white;
   color: #391400;
-  border: none;
+  border: 1px solid white;
   border-radius: 6px;
   padding: 1rem 1.5rem; }
 
@@ -126,188 +124,12 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
     align-items: center;
     justify-content: center; }
     .app__header__button button {
-<<<<<<< HEAD
-      padding: 5px 10px; }
-
-* {
-  margin: 0;
-  padding: 0; }
-
-h1 {
-  color: red; }
-
-#experience-design-agency {
-  background-color: #FDF0E9; }
-  #experience-design-agency .logos {
-    display: flex;
-    justify-content: space-between;
-    padding: 4rem 0; }
-    #experience-design-agency .logos img {
-      object-fit: contain;
-      width: 10%; }
-  #experience-design-agency hr {
-    background-color: #F3D1BF;
-    border: none;
-    height: 1px;
-    width: 100%; }
-  #experience-design-agency #about {
-    padding: 5rem 0; }
-    #experience-design-agency #about .upper {
-      display: flex;
-      margin-bottom: 130px; }
-      #experience-design-agency #about .upper img {
-        width: 550px; }
-      #experience-design-agency #about .upper .text {
-        padding-left: 7rem;
-        padding-top: 4rem; }
-        #experience-design-agency #about .upper .text span {
-          color: #EF6D58;
-          font-size: 16px;
-          line-height: 32px;
-          font-weight: 400;
-          margin-bottom: 15px;
-          display: inline-block; }
-        #experience-design-agency #about .upper .text h2 {
-          color: #391400;
-          font-size: 45px;
-          font-weight: 800;
-          letter-spacing: -1px;
-          text-align: left;
-          margin-bottom: 18px; }
-        #experience-design-agency #about .upper .text h6 {
-          color: #391400;
-          font-weight: 400;
-          font-size: 20px;
-          line-height: 32px;
-          margin-bottom: 18px; }
-        #experience-design-agency #about .upper .text p {
-          color: #391400;
-          font-weight: 400;
-          font-size: 14.5px;
-          line-height: 32px;
-          margin-bottom: 30px; }
-    #experience-design-agency #about .lower .box {
-      border: 1px solid #F3D1BF;
-      padding: 2.5rem; }
-      #experience-design-agency #about .lower .box h5 {
-        font-weight: 800;
-        font-size: 30px;
-        line-height: 48px;
-        color: #391400;
-        margin-bottom: 10px; }
-      #experience-design-agency #about .lower .box p {
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 32px;
-        color: #391400; }
-    #experience-design-agency #about .col-4:first-child .box {
-      border-radius: 6px 0px 0px 6px; }
-    #experience-design-agency #about .col-4:last-child .box {
-      border-radius: 0px 6px 6px 0px; }
-=======
       background: transparent;
       border-radius: 6px;
       padding: 18px 22px;
       color: white;
       border: 1px solid lightgrey;
       font-weight: bold; }
-
-.app__main__hero {
-  background-color: #32334c;
-  padding-top: 178px; }
-  .app__main__hero__content__subtitle {
-    margin-bottom: 24px; }
-    .app__main__hero__content__subtitle__item {
-      color: #ef6d58; }
-  .app__main__hero__content__title {
-    margin-bottom: 24px; }
-    .app__main__hero__content__title__item {
-      font-size: 72px;
-      color: white; }
-  .app__main__hero__content__desc__item {
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 32px;
-    color: rgba(255, 255, 255, 0.64); }
-  .app__main__hero__content__buttons {
-    padding: 10px 0;
-    margin-bottom: 108px; }
-    .app__main__hero__content__buttons--orange {
-      margin-right: 48px;
-      background: #ef6d58;
-      border-radius: 6px;
-      padding: 18px 22px;
-      color: white;
-      border: none;
-      font-weight: bold; }
-    .app__main__hero__content__buttons--transparent {
-      background-color: transparent;
-      border: none;
-      color: white; }
-  .app__main__hero__content__testimonial {
-    padding-bottom: 64px;
-    display: flex; }
-    .app__main__hero__content__testimonial__image {
-      margin-right: 20px;
-      padding: 10px; }
-    .app__main__hero__content__testimonial__body__desc__item {
-      font-family: "Epilogue";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 32px;
-      color: rgba(255, 255, 255, 0.64); }
-    .app__main__hero__content__testimonial__body__author__item {
-      /* Text */
-      font-family: "Epilogue";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 32px;
-      color: #ffffff; }
-
-.app__main__features {
-  border: solid;
-  background-color: #fdf0e9; }
-  .app__main__features__subtitle {
-    margin-bottom: 24px; }
-    .app__main__features__subtitle__item {
-      color: #ef6d58; }
-  .app__main__features__title {
-    margin-bottom: 24px; }
-    .app__main__features__title__item {
-      font-weight: 800;
-      font-size: 48px;
-      color: #391400; }
-  .app__main__features__desc__item {
-    font-size: 16px;
-    font-weight: 400;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 32px;
-    color: #391400A3; }
-  .app__main__features__items {
-    margin-top: 90px; }
-    .app__main__features__items__item {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin: 32px 0; }
-      .app__main__features__items__item__count {
-        font-size: 72px;
-        color: #391400;
-        font-weight: 800; }
-      .app__main__features__items__item__desc {
-        font-weight: 700;
-        color: #391400;
-        font-size: 36px !important; }
-  .app__main__features__button button {
-    color: #391400;
-    border: none;
-    background-color: transparent;
-    margin-top: 28px; }
 
 .footer {
   padding-top: 89px;
@@ -393,7 +215,175 @@ h1 {
     .footer__row--copyright .terms-of-use, .footer__row--copyright .privacy-policy {
       margin-left: 68px; }
 
-* {
-  margin: 0;
-  padding: 0; }
->>>>>>> 4c3d2dcdf3b5ed132e89da500e203ed1cc61b6df
+.app__main__hero {
+  background-color: #32334c;
+  padding-top: 178px; }
+  .app__main__hero__content__subtitle {
+    margin-bottom: 24px; }
+    .app__main__hero__content__subtitle__item {
+      color: #ef6d58; }
+  .app__main__hero__content__title {
+    margin-bottom: 24px; }
+    .app__main__hero__content__title__item {
+      font-size: 72px;
+      color: white; }
+  .app__main__hero__content__desc__item {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.64); }
+  .app__main__hero__content__buttons {
+    padding: 10px 0;
+    margin-bottom: 108px; }
+    .app__main__hero__content__buttons--orange {
+      margin-right: 48px;
+      background: #ef6d58;
+      border-radius: 6px;
+      padding: 18px 22px;
+      color: white;
+      border: none;
+      font-weight: bold; }
+    .app__main__hero__content__buttons--transparent {
+      background-color: transparent;
+      border: none;
+      color: white; }
+  .app__main__hero__content__testimonial {
+    padding-bottom: 64px;
+    display: flex; }
+    .app__main__hero__content__testimonial__image {
+      margin-right: 20px;
+      padding: 10px; }
+    .app__main__hero__content__testimonial__body__desc__item {
+      font-family: "Epilogue";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+      color: rgba(255, 255, 255, 0.64); }
+    .app__main__hero__content__testimonial__body__author__item {
+      /* Text */
+      font-family: "Epilogue";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+      color: #ffffff; }
+
+#experience-design-agency {
+  background-color: #FDF0E9; }
+  #experience-design-agency .logos {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0; }
+    #experience-design-agency .logos img {
+      object-fit: contain;
+      width: 10%; }
+  #experience-design-agency hr {
+    background-color: #F3D1BF;
+    border: none;
+    height: 1px;
+    width: 100%; }
+  #experience-design-agency #about {
+    padding: 5rem 0; }
+    #experience-design-agency #about .upper {
+      display: flex;
+      margin-bottom: 130px; }
+      #experience-design-agency #about .upper img {
+        width: 550px; }
+      #experience-design-agency #about .upper .text {
+        padding-left: 7rem;
+        padding-top: 4rem; }
+        #experience-design-agency #about .upper .text span {
+          color: #ed8575;
+          font-size: 16px;
+          line-height: 32px;
+          font-weight: 400;
+          margin-bottom: 15px;
+          display: inline-block; }
+        #experience-design-agency #about .upper .text h2 {
+          color: #391400;
+          font-size: 45px;
+          font-weight: 800;
+          letter-spacing: -1px;
+          text-align: left;
+          margin-bottom: 18px; }
+        #experience-design-agency #about .upper .text h6 {
+          color: #391400;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 32px;
+          margin-bottom: 18px; }
+        #experience-design-agency #about .upper .text p {
+          color: #391400;
+          font-weight: 400;
+          font-size: 14.5px;
+          line-height: 32px;
+          margin-bottom: 30px; }
+    #experience-design-agency #about .lower .box {
+      border: 1px solid #F3D1BF;
+      padding: 2.5rem; }
+      #experience-design-agency #about .lower .box h5 {
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 48px;
+        color: #391400;
+        margin-bottom: 10px; }
+      #experience-design-agency #about .lower .box p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        color: #391400; }
+    #experience-design-agency #about .col-4:first-child .box {
+      border-radius: 6px 0px 0px 6px; }
+    #experience-design-agency #about .col-4:last-child .box {
+      border-radius: 0px 6px 6px 0px; }
+
+.hr {
+  width: 100%;
+  height: 1px;
+  outline: none;
+  border: none;
+  background-color: #F3D1BF; }
+
+.app__main__features {
+  background-color: #fdf0e9; }
+  .app__main__features__subtitle {
+    margin-bottom: 24px; }
+    .app__main__features__subtitle__item {
+      color: #ef6d58; }
+  .app__main__features__title {
+    margin-bottom: 24px; }
+    .app__main__features__title__item {
+      font-weight: 800;
+      font-size: 48px;
+      color: #391400; }
+  .app__main__features__desc__item {
+    font-size: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #391400a3; }
+  .app__main__features__items {
+    border-bottom: #391400;
+    margin-top: 90px; }
+    .app__main__features__items__item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 32px 0; }
+      .app__main__features__items__item__count {
+        font-size: 72px;
+        color: #391400;
+        font-weight: 800; }
+      .app__main__features__items__item__desc {
+        font-weight: 700;
+        color: #391400;
+        font-size: 36px !important; }
+  .app__main__features__button button {
+    color: #391400;
+    border: none;
+    background-color: transparent;
+    margin-top: 28px; }

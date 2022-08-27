@@ -1,0 +1,58 @@
+@import "../../../components/hr";
+@import '../../../abstracts/color';
+.app__main__features {
+  background-color: #fdf0e9;
+  &__subtitle {
+    margin-bottom: 24px;
+    &__item {
+      color: #ef6d58;
+    }
+  }
+  &__title {
+    margin-bottom: 24px;
+    &__item {
+      font-weight: 800;
+      font-size: 48px;
+      color: #391400;
+    }
+  }
+  &__desc {
+    &__item {
+      font-size: 16px;
+      font-weight: 400;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 32px;
+      color: #391400a3;
+    }
+  }
+  &__items {
+    border-bottom: #391400;
+    margin-top: 90px;
+    &__item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 32px 0;
+      &__count {
+        font-size: 72px;
+        color: #391400;
+        font-weight: 800;
+      }
+      &__desc {
+        font-weight: 700;
+        color: #391400;
+        font-size: 36px !important;
+      }
+    }
+  }
+  &__button {
+    button {
+      color: #391400;
+      border: none;
+      background-color: transparent;
+      margin-top: 28px;
+    }
+  }
+}
+
