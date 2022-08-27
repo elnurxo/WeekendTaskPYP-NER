@@ -1,3 +1,4 @@
+@import '../abstracts/color';
 .footer{
     &__item{
         display: flex;
@@ -10,7 +11,7 @@
         }
         &--link{
             h5{
-                color: #EF6D58;
+                color: $orange;
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 32px;

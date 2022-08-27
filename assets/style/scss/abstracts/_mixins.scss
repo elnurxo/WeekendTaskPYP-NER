@@ -1,3 +1,22 @@
+@mixin button ($background-color, $color){
+    font-weight: 900;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: $background-color;
+    color: $color;
+    border: 1px solid $color;
+    border-radius: 6px;
+    padding: 1rem 1.5rem;
+}
+
+@mixin icon($font-size, $padding){
+    background-color: $orange;
+    font-size: $font-size;
+    color: white;
+    padding:$padding;
+    border-radius: 50%;
+}
 @mixin for-phone-only {
     @media (max-width: 599px) { @content; }
   }
