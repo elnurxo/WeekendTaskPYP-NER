@@ -2,13 +2,17 @@
   background-color: #32334c;
   padding-bottom: 20px;
   &__content {
+    position: relative;
     border-radius: 6px;
     background: #fdf0e9;
     &__block {
       display: flex;
+      justify-content: flex-end;
       padding: 20px;
       &__inner {
-        padding: 100px 20px 100px 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         &__subtitle {
           margin-bottom: 13px;
           &__item {
@@ -16,13 +20,8 @@
             font-weight: 400;
             font-size: 16px;
             line-height: 32px;
-            /* identical to box height, or 200% */
-
             letter-spacing: 3px;
             text-transform: uppercase;
-
-            /* Text_Dark_Accent */
-
             color: #ef6d58;
           }
         }
@@ -56,9 +55,35 @@
         }
       }
       img {
-        align-self: center;
+        align-self: flex-end;
         justify-self: flex-end;
       }
     }
+    &__icon{
+      position: absolute;
+      top: -70px;
+      left: 60px;
+    }
+  }
+  
+}
+@media only screen and (max-width: 992px) {
+  .app__main__banner__content__block__inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+  .app__main__banner__content__icon{
+    top: -85px;
+    img{
+      width: 100px;
+    }
+  }
+  img{
+    width: 100%;
+  }
+  .app__main__banner__content__block{
+    justify-content: center;
   }
 }
