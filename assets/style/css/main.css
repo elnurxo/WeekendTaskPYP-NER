@@ -58,6 +58,17 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
   text-transform: uppercase;
   background-color: #ed8575;
   color: white;
+  border: 1px solid #ed8575;
+  border-radius: 6px;
+  padding: 1rem 1.5rem; }
+
+.btn--secondary {
+  font-weight: 900;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: white;
+  color: #391400;
   border: 1px solid white;
   border-radius: 6px;
   padding: 1rem 1.5rem; }
@@ -259,6 +270,75 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
       font-size: 16px;
       line-height: 32px;
       color: #ffffff; }
+
+#experience-design-agency {
+  background-color: #FDF0E9; }
+  #experience-design-agency .logos {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0; }
+    #experience-design-agency .logos img {
+      object-fit: contain;
+      width: 10%; }
+  #experience-design-agency hr {
+    background-color: #F3D1BF;
+    border: none;
+    height: 1px;
+    width: 100%; }
+  #experience-design-agency #about {
+    padding: 5rem 0; }
+    #experience-design-agency #about .upper {
+      display: flex;
+      margin-bottom: 130px; }
+      #experience-design-agency #about .upper img {
+        width: 550px; }
+      #experience-design-agency #about .upper .text {
+        padding-left: 7rem;
+        padding-top: 4rem; }
+        #experience-design-agency #about .upper .text span {
+          color: #ed8575;
+          font-size: 16px;
+          line-height: 32px;
+          font-weight: 400;
+          margin-bottom: 15px;
+          display: inline-block; }
+        #experience-design-agency #about .upper .text h2 {
+          color: #391400;
+          font-size: 45px;
+          font-weight: 800;
+          letter-spacing: -1px;
+          text-align: left;
+          margin-bottom: 18px; }
+        #experience-design-agency #about .upper .text h6 {
+          color: #391400;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 32px;
+          margin-bottom: 18px; }
+        #experience-design-agency #about .upper .text p {
+          color: #391400;
+          font-weight: 400;
+          font-size: 14.5px;
+          line-height: 32px;
+          margin-bottom: 30px; }
+    #experience-design-agency #about .lower .box {
+      border: 1px solid #F3D1BF;
+      padding: 2.5rem; }
+      #experience-design-agency #about .lower .box h5 {
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 48px;
+        color: #391400;
+        margin-bottom: 10px; }
+      #experience-design-agency #about .lower .box p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        color: #391400; }
+    #experience-design-agency #about .col-4:first-child .box {
+      border-radius: 6px 0px 0px 6px; }
+    #experience-design-agency #about .col-4:last-child .box {
+      border-radius: 0px 6px 6px 0px; }
 
 .hr {
   width: 100%;
