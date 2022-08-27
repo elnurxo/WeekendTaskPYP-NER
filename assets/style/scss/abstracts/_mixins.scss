@@ -11,24 +11,24 @@
 }
 
 @mixin icon($font-size, $padding){
-    background-color: $orange;
+    background-color: $icon-bgc;
     font-size: $font-size;
     color: white;
     padding:$padding;
     border-radius: 50%;
 }
 @mixin for-phone-only {
-    @media (max-width: 599px) { @content; }
+    @media (max-width: 576px) { @content; }
   }
   @mixin for-tablet-portrait-up {
-    @media (min-width: 600px) { @content; }
+    @media (max-width: 768px) { @content; }
   }
   @mixin for-tablet-landscape-up {
-    @media (min-width: 900px) { @content; }
+    @media (max-width: 992px) { @content; }
   }
   @mixin for-desktop-up {
-    @media (min-width: 1200px) { @content; }
+    @media (max-width: 1200px) { @content; }
   }
   @mixin for-big-desktop-up {
-    @media (min-width: 1800px) { @content; }
+    @media (max-width: 1800px) { @content; }
   }

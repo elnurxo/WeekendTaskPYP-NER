@@ -1,5 +1,5 @@
 .container{
-  width: 1032px;
+  width: 81.25%;
   margin: 0 auto;
 }
 .row{
@@ -17,4 +17,9 @@
 }
 .col-12{
   width: 100%;
+}
+@include for-tablet-landscape-up{
+    .col-md-12{
+      width: 100%;
+    }
 }
