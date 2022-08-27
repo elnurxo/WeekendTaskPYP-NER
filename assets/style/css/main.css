@@ -731,8 +731,6 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
     top: -50px; }
     .app__main__banner__content__icon img {
       width: 100px; }
-  img {
-    width: 300px; }
   .app__main__banner__content__block {
     justify-content: center; } }
 
@@ -928,6 +926,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
           color: #391400; }
   #app__main__testimonials .testimonials-button {
     text-align: center; }
+
 #service {
   background-color: #FDF0E9;
   padding-bottom: 10%; }
@@ -1010,3 +1009,59 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
       border-radius: 6px 0px 0px 6px; }
     #service .lower .boxes .box:last-child {
       border-radius: 0px 6px 6px 0px; }
+
+#faqs {
+  background-color: #FDF0E9; }
+  #faqs .faqs-content h3 {
+    font-size: 40px;
+    line-height: 48px; }
+  #faqs .faqs-content p {
+    color: #391400;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 29px; }
+  @media (max-width: 992px) {
+    #faqs .faqs-content span {
+      display: block;
+      margin-bottom: 36px; } }
+  #faqs .faqs-accordion__item__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 34px 40px 48px;
+    border: 1px solid #F3D1BF; }
+    @media (max-width: 992px) {
+      #faqs .faqs-accordion__item__title {
+        padding: 40px 28px; } }
+  #faqs .faqs-accordion__item__title:last-child {
+    border-radius: 0px 0px 6px 6px; }
+  #faqs .faqs-accordion__item .row {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px; }
+  #faqs .faqs-accordion__item__content {
+    padding: 40px 34px 44px 48px; }
+    #faqs .faqs-accordion__item__content p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+      color: #391400; }
+  #faqs .faqs-accordion__item .accordion--title {
+    align-self: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    cursor: pointer;
+    color: #391400; }
+  #faqs .faqs-accordion__item [class*="caret"] {
+    font-size: 22px;
+    border-radius: 50%;
+    padding: 7px 12px;
+    color: white;
+    background: #EF6D58; }
+  #faqs .faqs-accordion__item .active-accordion {
+    background-color: #fff;
+    border: 1px solid #F3D1BF;
+    box-shadow: 0px 32px 64px rgba(57, 20, 0, 0.04);
+    border-radius: 6px 6px 0px 0px; }
