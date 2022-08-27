@@ -18,3 +18,8 @@
 .col-12{
   width: 100%;
 }
+@include for-tablet-landscape-up{
+    .col-md-12{
+      width: 100%;
+    }
+}
