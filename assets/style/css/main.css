@@ -369,23 +369,34 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
   #give-new-look .lower {
     width: 100%;
     display: flex;
-    align-items: center; }
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10%;
+    margin-top: 15%; }
+    @media (max-width: 992px) {
+      #give-new-look .lower {
+        margin-top: 8%; } }
     #give-new-look .lower .text {
       width: 50%;
       padding-right: 20%; }
       @media (max-width: 992px) {
         #give-new-look .lower .text {
-          width: 100%; } }
+          width: 100%;
+          order: 1;
+          margin-bottom: 5%;
+          padding-right: 0; } }
       #give-new-look .lower .text a {
         text-decoration: none;
         color: #391400;
         font-size: 13px; }
     #give-new-look .lower .boxes {
       width: 50%;
-      display: flex; }
+      display: flex;
+      flex-wrap: wrap; }
       @media (max-width: 992px) {
         #give-new-look .lower .boxes {
-          width: 100%; } }
+          width: 100%;
+          order: 2; } }
       #give-new-look .lower .boxes .box {
         border: 1px solid #F3D1BF;
         padding: 10% 5% 5% 7%;
@@ -852,3 +863,86 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
         border: 1px solid rgba(255, 255, 255, 0.295743);
         border-radius: 6px;
         font-size: 24px; } }
+
+#service {
+  background-color: #FDF0E9;
+  padding-bottom: 10%; }
+  #service .upper {
+    padding-bottom: 10%; }
+    #service .upper .main {
+      object-fit: contain;
+      width: 100%; }
+      @media (max-width: 992px) {
+        #service .upper .main {
+          width: 100%;
+          order: 1; } }
+    #service .upper .text {
+      padding-top: 4rem;
+      padding-left: 13%;
+      width: 100%; }
+      @media (max-width: 992px) {
+        #service .upper .text {
+          padding: 2% 0 0 0;
+          width: 100%;
+          order: 2; } }
+    #service .upper .comment-wrapper {
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 5%; }
+      #service .upper .comment-wrapper img {
+        object-fit: contain; }
+      #service .upper .comment-wrapper .comment {
+        padding-left: 5%; }
+        #service .upper .comment-wrapper .comment h6 {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 32px;
+          color: #391400; }
+        #service .upper .comment-wrapper .comment p {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 24px;
+          color: rgba(57, 20, 0, 0.64);
+          margin-bottom: 2%; }
+  #service .lower h2 {
+    padding-right: 60%;
+    margin-bottom: 7%; }
+  #service .lower .boxes {
+    display: flex;
+    flex-wrap: wrap; }
+    #service .lower .boxes .box {
+      padding: 4%;
+      border: 1px solid #f3d1bf;
+      width: 33.33%; }
+      @media (max-width: 992px) {
+        #service .lower .boxes .box {
+          width: 100%; } }
+      #service .lower .boxes .box i {
+        background-color: #EF6D58;
+        font-size: 24px;
+        color: white;
+        padding: 20px;
+        border-radius: 50%;
+        margin-bottom: 10%; }
+      #service .lower .boxes .box h4 {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 10%;
+        color: #391400; }
+      #service .lower .boxes .box p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: rgba(57, 20, 0, 0.64);
+        margin-bottom: 17%; }
+      #service .lower .boxes .box a {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: #391400; }
+    #service .lower .boxes .box:first-child {
+      border-radius: 6px 0px 0px 6px; }
+    #service .lower .boxes .box:last-child {
+      border-radius: 0px 6px 6px 0px; }
