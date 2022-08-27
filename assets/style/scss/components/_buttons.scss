@@ -1,0 +1,6 @@
+.btn--primary{
+    @include button($orange, white)
+}
+.btn--secondary{
+    @include button(white, $text-dark)
+}

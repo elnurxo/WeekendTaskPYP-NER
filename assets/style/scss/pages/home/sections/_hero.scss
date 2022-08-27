@@ -1,4 +1,81 @@
-* {
-  margin: 0;
-  padding: 0;
+.app__main__hero {
+  background-color: #32334c;
+  padding-top: 178px;
+  &__content {
+    &__subtitle {
+      margin-bottom: 24px;
+      &__item {
+        color: #ef6d58;
+      }
+    }
+    &__title {
+      margin-bottom: 24px;
+      &__item {
+        font-size: 72px;
+        color: white;
+      }
+    }
+    &__desc {
+      &__item {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: rgba(255, 255, 255, 0.64);
+        margin-bottom: 20px;
+      }
+    }
+    &__buttons {
+      padding: 10px 0;
+
+      margin-bottom: 108px;
+      &--orange {
+        margin-right: 48px;
+        background: #ef6d58;
+        border-radius: 6px;
+        padding: 18px 22px;
+        color: white;
+        border: none;
+        font-weight: bold;
+      }
+      &--transparent {
+        background-color: transparent;
+        border: none;
+        color: white;
+      }
+    }
+    &__testimonial {
+      padding-bottom: 64px;
+      display: flex;
+      &__image {
+        margin-right: 20px;
+        padding: 10px;
+      }
+      &__body {
+        &__desc {
+          &__item {
+            font-family: "Epilogue";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 32px;
+            color: rgba(255, 255, 255, 0.64);
+          }
+        }
+        &__author {
+          &__item {
+            /* Text */
+
+            font-family: "Epilogue";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 32px;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
 }

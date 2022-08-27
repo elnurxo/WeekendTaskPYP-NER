@@ -1,0 +1,6 @@
+.icon--small{
+    @include icon(15px, 6px);
+}
+.icon--large{
+    @include icon(20px, 12px)
+}
