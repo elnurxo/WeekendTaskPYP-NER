@@ -1,9 +1,4 @@
-@import "base/reset",
-        "base/typography",
-        "abstracts/color",
-        "abstracts/mixins",
-        "components/buttons", 
-        "layout/grid",
-        "layout/footer",
-        "layout/navbar",
-        "pages/home/index";
+@import "./base/reset", "./base/typography", "./abstracts/color",
+  "./abstracts/mixins", "./components/buttons", "./layout/grid",
+  "./layout/navbar", "./layout/footer", "./pages/home/index",
+  "./pages/shop/shop";
