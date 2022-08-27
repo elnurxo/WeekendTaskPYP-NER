@@ -36,13 +36,15 @@
       margin: 32px 0;
       &__count {
         font-size: 72px;
+        margin-right: 20px;
         color: #391400;
         font-weight: 800;
       }
       &__desc {
         font-weight: 700;
         color: #391400;
-        font-size: 36px !important;
+        line-height: 30px;
+        font-size: 24px;
       }
     }
   }
