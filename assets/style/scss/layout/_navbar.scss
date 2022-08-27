@@ -7,3 +7,30 @@
         display: flex;
     }
 }
+.app__header {
+  border: solid;
+  &__logo {
+  }
+  &__links {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &__item {
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+  &__button {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button {
+      padding: 5px 10px;
+    }
+  }
+}

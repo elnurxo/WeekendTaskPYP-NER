@@ -12,7 +12,14 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elnurxo/NorthFaceWebApp.git"
+    "url": "git+https://github.com/elnurxo/NorthFaceWebApp.git",
+  "name": "weekendtaskpyp-ner",
+  "description": "Weekend PYP Team Task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elnurxo/WeekendTaskPYP-NER.git"
   },
   "keywords": [],
   "author": "",
@@ -20,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/elnurxo/NorthFaceWebApp/issues"
   },
-  "homepage": "https://github.com/elnurxo/NorthFaceWebApp#readme"
+  "homepage": "https://github.com/elnurxo/NorthFaceWebApp#readme",
+    "url": "https://github.com/elnurxo/WeekendTaskPYP-NER/issues"
+  },
+  "homepage": "https://github.com/elnurxo/WeekendTaskPYP-NER#readme"
 }

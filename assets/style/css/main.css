@@ -1837,6 +1837,25 @@ html {
 .app__header .app__header__nav {
   display: flex; }
 
+.app__header {
+  border: solid; }
+  .app__header__links {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    .app__header__links__item a {
+      text-decoration: none;
+      color: black; }
+  .app__header__button {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .app__header__button button {
+      padding: 5px 10px; }
+
 * {
   margin: 0;
   padding: 0; }
