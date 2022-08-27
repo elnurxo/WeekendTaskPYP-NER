@@ -276,68 +276,6 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
     .footer__row--copyright .terms-of-use, .footer__row--copyright .privacy-policy {
       margin-left: 68px; }
 
-<<<<<<< HEAD
-.app__main__hero {
-  background-color: #32334c;
-  padding-top: 178px; }
-  .app__main__hero__content__subtitle {
-    margin-bottom: 24px; }
-    .app__main__hero__content__subtitle__item {
-      color: #ef6d58; }
-  .app__main__hero__content__title {
-    margin-bottom: 24px; }
-    .app__main__hero__content__title__item {
-      font-size: 72px;
-      color: white; }
-  .app__main__hero__content__desc__item {
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 32px;
-    color: rgba(255, 255, 255, 0.64);
-    margin-bottom: 20px; }
-  .app__main__hero__content__buttons {
-    padding: 10px 0;
-    margin-bottom: 108px; }
-    .app__main__hero__content__buttons--orange {
-      margin-right: 48px;
-      background: #ef6d58;
-      border-radius: 6px;
-      padding: 18px 22px;
-      color: white;
-      border: none;
-      font-weight: bold; }
-    .app__main__hero__content__buttons--transparent {
-      background-color: transparent;
-      border: none;
-      color: white; }
-  .app__main__hero__content__testimonial {
-    padding-bottom: 64px;
-    display: flex; }
-    .app__main__hero__content__testimonial__image {
-      margin-right: 20px;
-      padding: 10px; }
-    .app__main__hero__content__testimonial__body__desc__item {
-      font-family: "Epilogue";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 32px;
-      color: rgba(255, 255, 255, 0.64); }
-    .app__main__hero__content__testimonial__body__author__item {
-      /* Text */
-      font-family: "Epilogue";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 32px;
-      color: #ffffff; }
-
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 28af8c2648cead1a8013b6c40c1759afe136913b
 #experience-design-agency {
   background-color: #FDF0E9; }
   #experience-design-agency .logos {
@@ -526,7 +464,6 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
       line-height: 32px;
       color: #ffffff; }
 
->>>>>>> 5ca6139961ee08115e7801030ac7e48958fb5dde
 #experience-design-agency {
   background-color: #FDF0E9; }
   #experience-design-agency .logos {
