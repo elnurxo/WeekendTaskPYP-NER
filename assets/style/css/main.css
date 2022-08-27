@@ -5,6 +5,22 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
   width: 1032px;
   margin: 0 auto; }
 
+.row {
+  display: flex;
+  flex-wrap: wrap; }
+
+.col-3 {
+  width: 24.99999%; }
+
+.col-4 {
+  width: 33.33333%; }
+
+.col-6 {
+  width: 49.99999%; }
+
+.col-12 {
+  width: 100%; }
+
 * {
   margin: 0;
   padding: 0; }
