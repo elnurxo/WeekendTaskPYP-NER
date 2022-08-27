@@ -44,6 +44,9 @@
     .text {
       width: 50%;
       padding-right: 20%;
+      @include for-tablet-landscape-up {
+        width: 100%;
+      }
       a {
         text-decoration: none;
         color: $text-dark;
@@ -53,10 +56,12 @@
     .boxes {
       width: 50%;
       display: flex;
+      @include for-tablet-landscape-up {
+        width: 100%;
+      }
       .box {
-        box-sizing: content-box;
         border: 1px solid $hr-bgc;
-        padding: 100% 7% 1% 7%;
+        padding: 10% 5% 5% 7%;
         width: 50%;
         h6 {
           color: $text-dark;
@@ -66,20 +71,18 @@
         }
         p {
           font-weight: 400;
-          font-size: 10px;
-          line-height: 10px;
+          font-size: 15px;
+          line-height: 32px;
           color: rgba(57, 20, 0, 0.64);
         }
       }
-      .box-white{
+      .box-white {
         background-color: white;
-        padding: 7% 7% 14% 7%;
         i {
           margin-bottom: 10%;
         }
       }
-      .box-transparent{
-        padding-top: 10%;
+      .box-transparent {
         margin-top: 10%;
       }
     }
