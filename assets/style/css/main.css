@@ -1834,9 +1834,6 @@ html {
     -ms-flex-item-align: stretch !important;
     align-self: stretch !important; } }
 
-.app__header .app__header__nav {
-  display: flex; }
-
 .app__header {
   border: solid; }
   .app__header__links {
