@@ -1,15 +1,24 @@
 @import '../abstracts/color';
 .footer{
+    padding-top: 89px;
+    @include for-tablet-landscape-up{
+        padding-top: 121px;
+        text-align: center;
+    }
+    background-color: $section-bgc;
     &__item{
-        display: flex;
-        justify-content: space-between;
         &--agency{
             font-size: 24px;
             line-height: 32px;
             font-weight: 700;
-            color: green;
+            @include for-tablet-landscape-up{
+               padding-bottom: 51px;
+            }
         }
         &--link{
+            @include for-tablet-landscape-up{
+                padding-bottom: 48px;
+            }
             h5{
                 color: $orange;
                 font-weight: 400;
@@ -17,7 +26,81 @@
                 line-height: 32px;
                 letter-spacing: 3px;
                 text-transform: uppercase;
+                margin-bottom: 16px;
             }
+            ul{
+                li{
+                    a{
+                        color: $text-dark;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 32px;
+                    }
+                }
+            }
+        }
+        &--icon{
+            text-align: right;
+            @include for-tablet-landscape-up{
+               text-align: center;
+            }
+            a{
+                i{
+                    @include icon(16px, 16px);
+                    width: 48px;
+                    height: 48px;
+                    text-align: center;
+                    margin-right: 8px;
+                    transition: .2s;
+                    &:hover{
+                        background-color: $icon-bgc-hover;
+                    }
+                }
+            }
+        }
+    }
+    &__row--main{
+        padding-bottom: 68px;
+    }
+    hr{
+        width: 100%;
+        height: 1px;
+        outline: none;
+        border: none;
+        background-color: $hr-bgc;
+    }
+    &__row--copyright{
+        padding: 59px 0;
+        display: flex;
+        align-items: center;
+        @include for-tablet-landscape-up{
+            padding: 43px 0;
+        }
+        .copyright{
+            @include for-tablet-landscape-up{
+                padding: 0 40px;
+                padding-bottom: 32px;
+            }
+        }
+        span{
+            line-height: 32px;
+            font-weight: 400;
+            font-size: 16px;
+            color: $text-dark;
+        }
+        .term-of-use-privacy-col{
+            text-align: right;
+            @include for-tablet-landscape-up{
+                padding-bottom: 32px;
+                display: flex;
+                justify-content: space-evenly;
+                span{
+                    margin: 0;
+                }
+            }
+        }
+        .terms-of-use,.privacy-policy{
+            margin-left: 68px;
         }
     }
 }
