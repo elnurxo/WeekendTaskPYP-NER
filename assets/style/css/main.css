@@ -100,6 +100,9 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
 .col-12 {
   width: 100%; }
 
+.col-8 {
+  width: 66.666%; }
+
 @media (max-width: 992px) {
   .col-md-12 {
     width: 100%; }
@@ -417,3 +420,73 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
     border: none;
     background-color: transparent;
     margin-top: 28px; }
+
+.app__main__portfolio {
+  background-color: #32334c;
+  border: solid;
+  font-family: "Epilogue";
+  width: 100%;
+  text-align: center; }
+  .app__main__portfolio__subtitle {
+    margin-bottom: 20px;
+    padding-top: 92px; }
+    .app__main__portfolio__subtitle__item {
+      color: #ef6d58;
+      font-size: 16px; }
+  .app__main__portfolio__title__item {
+    font-size: 56px;
+    color: white; }
+  .app__main__portfolio__links {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 68px; }
+    .app__main__portfolio__links__items {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 50%; }
+      .app__main__portfolio__links__items__item {
+        position: relative; }
+        .app__main__portfolio__links__items__item a {
+          text-decoration: none;
+          color: #ffffffa3; }
+        .app__main__portfolio__links__items__item span {
+          position: absolute;
+          top: -15px;
+          right: -15px;
+          color: #ffffffa3; }
+      .app__main__portfolio__links__items .active a {
+        color: white; }
+  .app__main__portfolio__items__item {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 6px;
+    position: relative;
+    border: 1px solid black; }
+    .app__main__portfolio__items__item img {
+      width: 100% !important;
+      border-radius: 6px;
+      height: 416px;
+      object-fit: cover; }
+    .app__main__portfolio__items__item__content {
+      position: absolute;
+      top: 270px;
+      left: 48px; }
+      .app__main__portfolio__items__item__content__category {
+        background: #ffffff;
+        border-radius: 19px;
+        color: black;
+        padding: 16px;
+        margin-bottom: 20px; }
+      .app__main__portfolio__items__item__content__name__item {
+        font-family: "Epilogue";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 48px;
+        /* identical to box height, or 120% */
+        /* Text_Light */
+        color: #ffffff; }

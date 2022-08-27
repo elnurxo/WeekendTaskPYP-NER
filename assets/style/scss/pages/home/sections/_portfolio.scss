@@ -1,0 +1,94 @@
+.app__main__portfolio {
+  background-color: #32334c;
+  border: solid;
+  font-family: "Epilogue";
+  width: 100%;
+  text-align: center;
+  &__subtitle {
+    margin-bottom: 20px;
+    padding-top: 92px;
+    &__item {
+      color: #ef6d58;
+      font-size: 16px;
+    }
+  }
+  &__title {
+    &__item {
+      font-size: 56px;
+      color: white;
+    }
+  }
+  &__links {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 68px;
+    &__items {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 50%;
+      &__item {
+        position: relative;
+        a {
+          text-decoration: none;
+          color: #ffffffa3;
+        }
+        span {
+          position: absolute;
+          top: -15px;
+          right: -15px;
+          color: #ffffffa3;
+        }
+      }
+      .active {
+        a {
+          color: white;
+        }
+      }
+    }
+  }
+  &__items {
+    &__item {
+      margin-bottom: 20px;
+      margin-right: 20px;
+      border-radius: 6px;
+      position: relative;
+      border: 1px solid black;
+      img {
+        width: 100% !important;
+        border-radius: 6px;
+        height: 416px;
+        object-fit: cover;
+      }
+      &__content {
+        position: absolute;
+        top: 270px;
+        left: 48px;
+        &__category {
+          background: #ffffff;
+          border-radius: 19px;
+          color: black;
+          padding: 16px;
+          margin-bottom: 20px;
+        }
+        &__name {
+          &__item {
+            font-family: "Epilogue";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 48px;
+            /* identical to box height, or 120% */
+
+            /* Text_Light */
+
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
