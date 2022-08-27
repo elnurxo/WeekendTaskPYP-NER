@@ -662,6 +662,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
       justify-content: flex-end;
       padding: 20px; }
       .app__main__banner__content__block__inner {
+        padding: 0 40px;
         display: flex;
         flex-direction: column;
         justify-content: center; }
@@ -699,8 +700,8 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
           border: none;
           color: #ffffff; }
       .app__main__banner__content__block img {
-        align-self: flex-end;
-        justify-self: flex-end; }
+        align-self: center;
+        justify-self: center; }
     .app__main__banner__content__icon {
       position: absolute;
       top: -70px;

@@ -10,6 +10,7 @@
       justify-content: flex-end;
       padding: 20px;
       &__inner {
+        padding: 0 40px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -55,35 +56,34 @@
         }
       }
       img {
-        align-self: flex-end;
-        justify-self: flex-end;
+        align-self: center;
+        justify-self: center;
       }
     }
-    &__icon{
+    &__icon {
       position: absolute;
       top: -70px;
       left: 60px;
     }
   }
-  
 }
 @media only screen and (max-width: 992px) {
-  .app__main__banner__content__block__inner{
+  .app__main__banner__content__block__inner {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 20px;
   }
-  .app__main__banner__content__icon{
+  .app__main__banner__content__icon {
     top: -50px;
-    img{
+    img {
       width: 100px;
     }
   }
-  img{
+  img {
     width: 300px;
   }
-  .app__main__banner__content__block{
+  .app__main__banner__content__block {
     justify-content: center;
   }
 }
