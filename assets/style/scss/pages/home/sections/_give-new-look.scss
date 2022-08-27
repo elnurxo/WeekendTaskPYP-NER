@@ -40,12 +40,21 @@
   .lower {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    margin-bottom: 10%;
+    margin-top: 15%;
+    @include for-tablet-landscape-up {
+      margin-top: 8%;
+    }
     .text {
       width: 50%;
       padding-right: 20%;
       @include for-tablet-landscape-up {
         width: 100%;
+        order: 1;
+        margin-bottom: 5%;
+        padding-right: 0;
       }
       a {
         text-decoration: none;
@@ -56,8 +65,10 @@
     .boxes {
       width: 50%;
       display: flex;
+      flex-wrap: wrap;
       @include for-tablet-landscape-up {
         width: 100%;
+        order: 2;
       }
       .box {
         border: 1px solid $hr-bgc;
