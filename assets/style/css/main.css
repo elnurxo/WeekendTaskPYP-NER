@@ -44,6 +44,7 @@ table {
 
 a {
   text-decoration: none; }
+
 * {
   font-family: "Epilogue"; }
 
@@ -118,103 +119,6 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
       color: white;
       border: 1px solid lightgrey;
       font-weight: bold; }
-
-.app__main__hero {
-  background-color: #32334c;
-  padding-top: 178px; }
-  .app__main__hero__content__subtitle {
-    margin-bottom: 24px; }
-    .app__main__hero__content__subtitle__item {
-      color: #ef6d58; }
-  .app__main__hero__content__title {
-    margin-bottom: 24px; }
-    .app__main__hero__content__title__item {
-      font-size: 72px;
-      color: white; }
-  .app__main__hero__content__desc__item {
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 32px;
-    color: rgba(255, 255, 255, 0.64); }
-  .app__main__hero__content__buttons {
-    padding: 10px 0;
-    margin-bottom: 108px; }
-    .app__main__hero__content__buttons--orange {
-      margin-right: 48px;
-      background: #ef6d58;
-      border-radius: 6px;
-      padding: 18px 22px;
-      color: white;
-      border: none;
-      font-weight: bold; }
-    .app__main__hero__content__buttons--transparent {
-      background-color: transparent;
-      border: none;
-      color: white; }
-  .app__main__hero__content__testimonial {
-    padding-bottom: 64px;
-    display: flex; }
-    .app__main__hero__content__testimonial__image {
-      margin-right: 20px;
-      padding: 10px; }
-    .app__main__hero__content__testimonial__body__desc__item {
-      font-family: "Epilogue";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 32px;
-      color: rgba(255, 255, 255, 0.64); }
-    .app__main__hero__content__testimonial__body__author__item {
-      /* Text */
-      font-family: "Epilogue";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 32px;
-      color: #ffffff; }
-
-.app__main__features {
-  border: solid;
-  background-color: #fdf0e9; }
-  .app__main__features__subtitle {
-    margin-bottom: 24px; }
-    .app__main__features__subtitle__item {
-      color: #ef6d58; }
-  .app__main__features__title {
-    margin-bottom: 24px; }
-    .app__main__features__title__item {
-      font-weight: 800;
-      font-size: 48px;
-      color: #391400; }
-  .app__main__features__desc__item {
-    font-size: 16px;
-    font-weight: 400;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 32px;
-    color: #391400A3; }
-  .app__main__features__items {
-    margin-top: 90px; }
-    .app__main__features__items__item {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin: 32px 0; }
-      .app__main__features__items__item__count {
-        font-size: 72px;
-        color: #391400;
-        font-weight: 800; }
-      .app__main__features__items__item__desc {
-        font-weight: 700;
-        color: #391400;
-        font-size: 36px !important; }
-  .app__main__features__button button {
-    color: #391400;
-    border: none;
-    background-color: transparent;
-    margin-top: 28px; }
 
 .footer {
   padding-top: 89px;
@@ -300,6 +204,106 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
     .footer__row--copyright .terms-of-use, .footer__row--copyright .privacy-policy {
       margin-left: 68px; }
 
-* {
-  margin: 0;
-  padding: 0; }
+.app__main__hero {
+  background-color: #32334c;
+  padding-top: 178px; }
+  .app__main__hero__content__subtitle {
+    margin-bottom: 24px; }
+    .app__main__hero__content__subtitle__item {
+      color: #ef6d58; }
+  .app__main__hero__content__title {
+    margin-bottom: 24px; }
+    .app__main__hero__content__title__item {
+      font-size: 72px;
+      color: white; }
+  .app__main__hero__content__desc__item {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.64); }
+  .app__main__hero__content__buttons {
+    padding: 10px 0;
+    margin-bottom: 108px; }
+    .app__main__hero__content__buttons--orange {
+      margin-right: 48px;
+      background: #ef6d58;
+      border-radius: 6px;
+      padding: 18px 22px;
+      color: white;
+      border: none;
+      font-weight: bold; }
+    .app__main__hero__content__buttons--transparent {
+      background-color: transparent;
+      border: none;
+      color: white; }
+  .app__main__hero__content__testimonial {
+    padding-bottom: 64px;
+    display: flex; }
+    .app__main__hero__content__testimonial__image {
+      margin-right: 20px;
+      padding: 10px; }
+    .app__main__hero__content__testimonial__body__desc__item {
+      font-family: "Epilogue";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+      color: rgba(255, 255, 255, 0.64); }
+    .app__main__hero__content__testimonial__body__author__item {
+      /* Text */
+      font-family: "Epilogue";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+      color: #ffffff; }
+
+.hr {
+  width: 100%;
+  height: 1px;
+  outline: none;
+  border: none;
+  background-color: #F3D1BF; }
+
+.app__main__features {
+  background-color: #fdf0e9; }
+  .app__main__features__subtitle {
+    margin-bottom: 24px; }
+    .app__main__features__subtitle__item {
+      color: #ef6d58; }
+  .app__main__features__title {
+    margin-bottom: 24px; }
+    .app__main__features__title__item {
+      font-weight: 800;
+      font-size: 48px;
+      color: #391400; }
+  .app__main__features__desc__item {
+    font-size: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #391400a3; }
+  .app__main__features__items {
+    border-bottom: #391400;
+    margin-top: 90px; }
+    .app__main__features__items__item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 32px 0; }
+      .app__main__features__items__item__count {
+        font-size: 72px;
+        color: #391400;
+        font-weight: 800; }
+      .app__main__features__items__item__desc {
+        font-weight: 700;
+        color: #391400;
+        font-size: 36px !important; }
+  .app__main__features__button button {
+    color: #391400;
+    border: none;
+    background-color: transparent;
+    margin-top: 28px; }
