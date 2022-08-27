@@ -3,6 +3,32 @@
     "node-sass": "^7.0.1"
   },
   "scripts": {
-    "sass":"node-sass assets/style/scss/main.scss -o assets/style/css -w"
-  }
+    "sass": "node-sass assets/style/scss/main.scss -o assets/style/css -w"
+  },
+  "name": "northfacewebapp",
+  "description": "This is a clone of The North Face Web Application",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elnurxo/NorthFaceWebApp.git",
+  "name": "weekendtaskpyp-ner",
+  "description": "Weekend PYP Team Task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elnurxo/WeekendTaskPYP-NER.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elnurxo/NorthFaceWebApp/issues"
+  },
+  "homepage": "https://github.com/elnurxo/NorthFaceWebApp#readme",
+    "url": "https://github.com/elnurxo/WeekendTaskPYP-NER/issues"
+  },
+  "homepage": "https://github.com/elnurxo/WeekendTaskPYP-NER#readme"
 }
