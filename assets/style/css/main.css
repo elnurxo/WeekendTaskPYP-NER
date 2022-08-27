@@ -60,7 +60,8 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
   color: white;
   border: 1px solid #ed8575;
   border-radius: 6px;
-  padding: 1rem 1.5rem; }
+  padding: 1rem 1.5rem;
+  box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08); }
 
 .btn--secondary {
   font-weight: 900;
@@ -72,6 +73,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
   border: 1px solid white;
   border-radius: 6px;
   padding: 1rem 1.5rem;
+  box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
   box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08); }
 
 .icon--small {
@@ -94,7 +96,8 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
   line-height: 32px;
   font-weight: 400;
   margin-bottom: 15px;
-  display: inline-block; }
+  display: inline-block;
+  text-transform: uppercase; }
 
 .section--heading {
   color: #391400;
@@ -729,8 +732,6 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
     top: -50px; }
     .app__main__banner__content__icon img {
       width: 100px; }
-  img {
-    width: 300px; }
   .app__main__banner__content__block {
     justify-content: center; } }
 
@@ -1028,3 +1029,121 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
     border-radius: 6px 0px 0px 6px; }
   #pricing .boxes .box:last-child {
     border-radius: 0px 6px 6px 0px; }
+
+#app__main__testimonials {
+  background-color: #FDF0E9;
+  padding-top: 124px;
+  padding-bottom: 108px; }
+  @media (max-width: 992px) {
+    #app__main__testimonials {
+      padding-top: 92px;
+      padding-bottom: 124px; } }
+  #app__main__testimonials .testimonials-heading {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 64px;
+    width: 394px; }
+    #app__main__testimonials .testimonials-heading h5 {
+      padding-bottom: 20px; }
+    #app__main__testimonials .testimonials-heading h2 {
+      font-size: 56px;
+      text-align: center;
+      margin: 0;
+      padding: 0; }
+  #app__main__testimonials .testimonials-clients {
+    margin-bottom: 65px; }
+    #app__main__testimonials .testimonials-clients .active-client {
+      background-color: #fff; }
+    #app__main__testimonials .testimonials-clients .client-left-top {
+      border-radius: 6px 0px 0px 0px; }
+    #app__main__testimonials .testimonials-clients .client-left-bottom {
+      border-radius: 0px 0px 6px 6px; }
+    #app__main__testimonials .testimonials-clients .client-right-top {
+      border-radius: 0px 6px 0px 0px; }
+    #app__main__testimonials .testimonials-clients .client-right-bottom {
+      border-radius: 0px 0px 6px 0px; }
+    #app__main__testimonials .testimonials-clients .client {
+      padding: 48px;
+      border: 1px solid #F3D1BF;
+      box-shadow: 0px 32px 64px rgba(57, 20, 0, 0.04); }
+      #app__main__testimonials .testimonials-clients .client .client-rate {
+        display: flex;
+        margin-bottom: 36px; }
+        #app__main__testimonials .testimonials-clients .client .client-rate li {
+          margin-right: 8px;
+          color: #F6D021; }
+      #app__main__testimonials .testimonials-clients .client .client-account {
+        display: flex;
+        align-items: center; }
+        #app__main__testimonials .testimonials-clients .client .client-account .image {
+          margin-right: 24px; }
+        #app__main__testimonials .testimonials-clients .client .client-account h4 {
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 32px; }
+          @media (max-width: 576px) {
+            #app__main__testimonials .testimonials-clients .client .client-account h4 {
+              font-size: 19px; } }
+        #app__main__testimonials .testimonials-clients .client .client-account span {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 32px;
+          color: #391400; }
+  #app__main__testimonials .testimonials-button {
+    text-align: center; }
+
+#faqs {
+  background-color: #FDF0E9; }
+  #faqs .faqs-content h3 {
+    font-size: 40px;
+    line-height: 48px; }
+  #faqs .faqs-content p {
+    color: rgba(57, 20, 0, 0.64);
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 29px; }
+  @media (max-width: 992px) {
+    #faqs .faqs-content span {
+      display: block;
+      margin-bottom: 36px; } }
+  #faqs .faqs-accordion__item__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 34px 40px 48px;
+    border: 1px solid #F3D1BF; }
+    @media (max-width: 992px) {
+      #faqs .faqs-accordion__item__title {
+        padding: 40px 28px; } }
+  #faqs .faqs-accordion__item__title:last-child {
+    border-radius: 0px 0px 6px 6px; }
+  #faqs .faqs-accordion__item .row {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px; }
+  #faqs .faqs-accordion__item__content {
+    padding: 40px 34px 44px 48px; }
+    #faqs .faqs-accordion__item__content p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+      color: rgba(57, 20, 0, 0.64); }
+  #faqs .faqs-accordion__item .accordion--title {
+    align-self: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    cursor: pointer;
+    color: #391400; }
+  #faqs .faqs-accordion__item [class*="caret"] {
+    font-size: 22px;
+    border-radius: 50%;
+    padding: 7px 12px;
+    color: white;
+    background: #EF6D58; }
+  #faqs .faqs-accordion__item .active-accordion {
+    background-color: #fff;
+    border: 1px solid #F3D1BF;
+    box-shadow: 0px 32px 64px rgba(57, 20, 0, 0.04);
+    border-radius: 6px 6px 0px 0px; }
