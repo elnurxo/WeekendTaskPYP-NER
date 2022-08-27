@@ -5,7 +5,7 @@
   "scripts": {
     "sass": "node-sass assets/style/scss/main.scss -o assets/style/css -w"
   },
-  "name": "weekendtaskpyp-ner",
+  "name": "clear",
   "description": "Weekend PYP Team Task",
   "version": "1.0.0",
   "main": "index.js",
@@ -19,6 +19,6 @@
     "url": "https://github.com/elnurxo/WeekendTaskPYP-NER/issues"
   },
   "homepage": "https://github.com/elnurxo/WeekendTaskPYP-NER#readme",
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {}
 }
-
