@@ -1,0 +1,64 @@
+.app__main__banner {
+  background-color: #32334c;
+  padding-bottom: 20px;
+  &__content {
+    border-radius: 6px;
+    background: #fdf0e9;
+    &__block {
+      display: flex;
+      padding: 20px;
+      &__inner {
+        padding: 100px 20px 100px 50px;
+        &__subtitle {
+          margin-bottom: 13px;
+          &__item {
+            font-family: "Epilogue";
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 32px;
+            /* identical to box height, or 200% */
+
+            letter-spacing: 3px;
+            text-transform: uppercase;
+
+            /* Text_Dark_Accent */
+
+            color: #ef6d58;
+          }
+        }
+        &__title {
+          margin-bottom: 13px;
+          &__item {
+            font-family: "Epilogue";
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 32px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #391400;
+          }
+        }
+        &__button {
+          button {
+            font-family: "Epilogue";
+            font-style: normal;
+            font-weight: 900;
+            font-size: 14px;
+            line-height: 14px;
+            text-align: center;
+            text-transform: uppercase;
+            background: #ef6d58;
+            border-radius: 6px;
+            padding: 18px 31px;
+            border: none;
+            color: #ffffff;
+          }
+        }
+      }
+      img {
+        align-self: center;
+        justify-self: flex-end;
+      }
+    }
+  }
+}

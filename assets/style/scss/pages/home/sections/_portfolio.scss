@@ -1,6 +1,5 @@
 .app__main__portfolio {
   background-color: #32334c;
-  border: solid;
   font-family: "Epilogue";
   width: 100%;
   text-align: center;
@@ -89,6 +88,17 @@
           }
         }
       }
+    }
+  }
+  &__btn {
+    padding-bottom: 20px;
+    button {
+      padding: 18px 31px;
+      background-color: transparent;
+      color: white;
+      font-weight: 700;
+      border: 1px solid rgba(255, 255, 255, 0.295743);
+      border-radius: 6px;
     }
   }
 }
