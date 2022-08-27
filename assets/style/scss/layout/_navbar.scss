@@ -1,8 +1,9 @@
-
 .app__header {
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #32334c;
-  position: fixed;
   padding: 16px;
   &__links {
     height: 100%;
@@ -21,15 +22,41 @@
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     button {
-        background: transparent;
-        border-radius: 6px;
-        padding: 18px 22px;
-        color: white;
-        border: 1px solid lightgrey;
-        font-weight: bold;
+      background: transparent;
+      border-radius: 6px;
+      padding: 18px 22px;
+      color: white;
+      border: 1px solid lightgrey;
+      font-weight: bold;
     }
   }
 }
-
+.app__header__mobile {
+  display: none;
+}
+@media only screen and (max-width: 992px) {
+  .app__header__desktop {
+    display: none;
+  }
+  .app__header__mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .burger {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      justify-content: flex-end;
+      i {
+        border: 1px solid lightgrey;
+        padding: 10px;
+        color: white;
+        border: 1px solid rgba(255, 255, 255, 0.295743);
+        border-radius: 6px;
+        font-size: 24px;
+      }
+    }
+  }
+}
