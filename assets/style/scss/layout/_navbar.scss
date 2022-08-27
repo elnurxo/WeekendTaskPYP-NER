@@ -1,5 +1,8 @@
 .app__header {
-  border: solid;
+  width: 100%;
+  background-color: #32334C;
+  position: fixed;
+  padding: 16px;
   &__logo {
   }
   &__links {
@@ -11,7 +14,7 @@
     &__item {
       a {
         text-decoration: none;
-        color: black;
+        color: white;
       }
     }
   }
@@ -24,4 +27,10 @@
       padding: 5px 10px;
     }
   }
+}
+.app__main{
+
+    .app__main__hero{
+        padding-top: 178px;
+    }
 }

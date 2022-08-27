@@ -1835,7 +1835,10 @@ html {
     align-self: stretch !important; } }
 
 .app__header {
-  border: solid; }
+  width: 100%;
+  background-color: #32334C;
+  position: fixed;
+  padding: 16px; }
   .app__header__links {
     height: 100%;
     list-style: none;
@@ -1844,7 +1847,7 @@ html {
     justify-content: space-around; }
     .app__header__links__item a {
       text-decoration: none;
-      color: black; }
+      color: white; }
   .app__header__button {
     height: 100%;
     display: flex;
@@ -1852,6 +1855,9 @@ html {
     justify-content: center; }
     .app__header__button button {
       padding: 5px 10px; }
+
+.app__main .app__main__hero {
+  padding-top: 178px; }
 
 * {
   margin: 0;
