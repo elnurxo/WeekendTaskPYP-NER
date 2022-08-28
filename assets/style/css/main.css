@@ -1942,6 +1942,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
         @media (max-width: 992px) {
           #newsletter .news-wrapper form input {
             margin-bottom: 16px;
+            margin-right: 0;
             width: 100%; } }
       @media (max-width: 992px) {
         #newsletter .news-wrapper form button {
