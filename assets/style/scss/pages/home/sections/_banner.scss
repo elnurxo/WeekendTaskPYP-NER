@@ -6,6 +6,13 @@
     position: relative;
     border-radius: 6px;
     background: #fdf0e9;
+    .banner__person{
+      img{
+        @include for-tablet-landscape-up{
+          width: 60%;
+        }
+      }
+    }
     &__block {
       display: flex;
       justify-content: flex-end;

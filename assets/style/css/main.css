@@ -757,6 +757,9 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
     position: relative;
     border-radius: 6px;
     background: #fdf0e9; }
+    @media (max-width: 992px) {
+      .app__main__banner__content .banner__person img {
+        width: 60%; } }
     .app__main__banner__content__block {
       display: flex;
       justify-content: flex-end;
