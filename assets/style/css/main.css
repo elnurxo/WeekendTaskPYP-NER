@@ -1519,10 +1519,16 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
         display: flex;
         justify-content: center;
         align-items: center;
-        border: solid;
+        cursor: pointer;
+        border: 1px solid #4E4F6E;
+        color: #4E4F6E;
         border-radius: 50%;
         width: 48px;
-        height: 48px; }
+        height: 48px;
+        transition: 0.3s linear; }
+        .app__main__team__header__title__icons__icon:hover {
+          color: lightgrey;
+          border: 1px solid lightgrey; }
   .app__main__team__body__items {
     margin-top: 20px; }
     .app__main__team__body__items__item {
@@ -1578,3 +1584,47 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
   .app__main__team__body__items__item__image img {
     width: 100%;
     object-fit: contain; } }
+
+.app__main__founder {
+  background-color: #32334c;
+  font-family: "Epilogue"; }
+  .app__main__founder__image {
+    padding-bottom: 50px;
+    margin-right: 40px; }
+    .app__main__founder__image img {
+      width: 100%; }
+  .app__main__founder__content__subtitle {
+    padding-top: 92px; }
+    .app__main__founder__content__subtitle__item {
+      margin-bottom: 40px;
+      color: #ef6d58;
+      font-size: 16px; }
+  .app__main__founder__content__title__item {
+    font-size: 36px;
+    color: white;
+    line-height: 50px;
+    margin-bottom: 20px; }
+  .app__main__founder__content__name {
+    margin-bottom: 5px; }
+    .app__main__founder__content__name__item {
+      font-family: "Epilogue";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 32px;
+      color: #ffffff; }
+  .app__main__founder__content__position {
+    padding-bottom: 20px; }
+    .app__main__founder__content__position__item {
+      font-family: "Epilogue";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      color: rgba(255, 255, 255, 0.64); }
+
+@media only screen and (max-width: 992px) {
+  .app__main__founder__image {
+    margin-right: 0; }
+  .app__main__founder__content__title__item {
+    font-size: 28px; } }
