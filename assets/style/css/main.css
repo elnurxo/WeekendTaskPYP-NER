@@ -1488,3 +1488,78 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
     border: 1px solid #F3D1BF;
     box-shadow: 0px 32px 64px rgba(57, 20, 0, 0.04);
     border-radius: 6px 6px 0px 0px; }
+
+.app__main__team {
+  background-color: #32334c;
+  font-family: "Epilogue";
+  width: 100%; }
+  .app__main__team__header__subtitle {
+    margin-bottom: 20px;
+    padding-top: 92px; }
+    .app__main__team__header__subtitle__item {
+      color: #ef6d58;
+      font-size: 16px; }
+  .app__main__team__header__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; }
+    .app__main__team__header__title__item {
+      font-family: "Epilogue";
+      font-style: normal;
+      font-weight: 800;
+      line-height: 64px;
+      letter-spacing: -1px;
+      color: #ffffff; }
+    .app__main__team__header__title__icons {
+      display: flex; }
+      .app__main__team__header__title__icons__icon {
+        margin-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid;
+        border-radius: 50%;
+        width: 48px;
+        height: 48px; }
+  .app__main__team__body__items {
+    margin-top: 20px; }
+    .app__main__team__body__items__item {
+      margin-right: 20px; }
+      .app__main__team__body__items__item__image {
+        margin-bottom: 20px;
+        border: 1px solid #3a3c56;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        height: 246px;
+        justify-content: center; }
+        .app__main__team__body__items__item__image img {
+          height: 246px;
+          width: 100%;
+          object-fit: contain; }
+      .app__main__team__body__items__item__body__name {
+        margin-bottom: 10px; }
+        .app__main__team__body__items__item__body__name p {
+          font-family: "Epilogue";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 32px;
+          color: #ffffff; }
+      .app__main__team__body__items__item__body__position p {
+        font-family: "Epilogue";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: rgba(255, 255, 255, 0.64); }
+
+@media only screen and (max-width: 992px) {
+  .app__main__team__header__title__icons {
+    display: none; }
+  .app__main__team__header__title__item {
+    font-size: 36px; }
+  .app__main__team__body__items__item__image img {
+    width: 100%;
+    object-fit: contain; } }
