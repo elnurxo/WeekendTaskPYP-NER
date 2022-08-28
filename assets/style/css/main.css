@@ -1851,3 +1851,23 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
 
 .app__main {
   background-color: #FDF0E9; }
+
+#contact-us {
+  padding-top: 80px;
+  padding-bottom: 130px; }
+  #contact-us .contact__item {
+    border: 1px solid #F3D1BF;
+    padding: 32px 0 38px 48px; }
+    #contact-us .contact__item .icon--title {
+      display: flex;
+      align-items: center;
+      margin-bottom: 26px; }
+    #contact-us .contact__item i {
+      margin-right: 24px; }
+    #contact-us .contact__item h5 {
+      align-self: center;
+      margin: 0; }
+    #contact-us .contact__item span {
+      line-height: 32px;
+      font-weight: 400;
+      color: #391400; }
