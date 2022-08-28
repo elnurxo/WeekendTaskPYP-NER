@@ -36,6 +36,7 @@
                 margin-right: 30px;
                 @include for-tablet-landscape-up{
                     margin-bottom: 16px;
+                    margin-right: 0;
                     width: 100%;
                 }
             }
