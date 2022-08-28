@@ -3,3 +3,7 @@
   "./layout/navbar", "./layout/footer", "./layout/banner", "./pages/home/index",
   "./pages/contact/contact", "./pages/services/index";
 
+html{
+  scroll-behavior: smooth;
+}
+
