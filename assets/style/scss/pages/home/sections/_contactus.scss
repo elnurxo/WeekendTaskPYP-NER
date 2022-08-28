@@ -2,6 +2,9 @@
 #contact-us{
     padding-top: 80px;
     padding-bottom: 130px;
+    @include for-tablet-landscape-up{
+        padding-top: 32px;
+    }
     .contact__item{
         .icon--title{
             display: flex;
