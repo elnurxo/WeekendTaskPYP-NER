@@ -2,6 +2,21 @@
 @import '../../../abstracts/color';
 .app__main__features {
   background-color: #fdf0e9;
+  .features__content{
+    padding: 40px;
+    @include for-tablet-landscape-up{
+      padding: 0;
+    }
+  }
+  .features-wrap{
+    padding-bottom: 65px;
+    @include for-tablet-landscape-up{
+      padding-bottom: 30px;
+    }
+  }
+  &__button__item{
+    font-size: 16px;
+  }
   &__subtitle {
     margin-bottom: 24px;
     &__item {

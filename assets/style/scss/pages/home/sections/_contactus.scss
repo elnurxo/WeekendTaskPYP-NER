@@ -1,0 +1,30 @@
+@import '../../../abstracts/color';
+#contact-us{
+    padding-top: 80px;
+    padding-bottom: 130px;
+    @include for-tablet-landscape-up{
+        padding-top: 32px;
+    }
+    .contact__item{
+        .icon--title{
+            display: flex;
+            align-items: center;
+            margin-bottom: 26px;
+        }
+        border: 1px solid $hr-bgc;
+        padding: 32px 0 38px 48px;
+        i{
+            margin-right: 24px;
+        }
+        h5{
+        align-self: center;
+        margin: 0;
+        }
+        span{
+            line-height: 32px;
+            font-weight: 400;
+            color: $text-dark;
+
+        }
+    }
+}

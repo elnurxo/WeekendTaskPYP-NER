@@ -45,7 +45,7 @@
     margin-bottom: 10%;
     margin-top: 15%;
     @include for-tablet-landscape-up {
-      margin-top: 8%;
+      margin-top: 130px;
     }
     .text {
       width: 50%;
@@ -92,14 +92,20 @@
       }
       .box-white {
         background-color: white;
+        padding: 48px 41px 46px 48px;
         i {
           margin-bottom: 10%;
         }
       }
       .box-transparent {
+        padding: 105px 41px 46px 48px;
         margin-top: 10%;
         @include for-tablet-landscape-up {
           margin-top: 0;
+          @include for-tablet-landscape-up {
+            margin-top: 0;
+            margin-bottom: 112px;
+          }
         }
       }
     }
