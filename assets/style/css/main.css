@@ -457,8 +457,11 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
         margin-top: 10%; }
         @media (max-width: 992px) {
           #give-new-look .lower .boxes .box-transparent {
-            margin-top: 0;
-            margin-bottom: 112px; } }
+            margin-top: 0; } }
+  @media (max-width: 992px) and (max-width: 992px) {
+    #give-new-look .lower .boxes .box-transparent {
+      margin-top: 0;
+      margin-bottom: 112px; } }
 
 .app__main__hero {
   background-color: #32334c;
@@ -2024,6 +2027,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
         width: 100%;
         height: 100%; }
 
+<<<<<<< HEAD
 .faqs__contact {
   padding-bottom: 1px; }
 
@@ -2033,3 +2037,69 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
 @media (max-width: 576px) {
   .get-in-touch__contact #map_wrapper .get-in-touch__form {
     margin-top: 64px !important; } }
+=======
+#services__services {
+  background-color: #FDF0E9;
+  padding-top: 8%; }
+  #services__services .info {
+    padding-bottom: 3%; }
+    #services__services .info h2 {
+      font-size: 40px;
+      line-height: 48px; }
+    #services__services .info .text {
+      padding-top: 3.5rem; }
+      @media (max-width: 992px) {
+        #services__services .info .text {
+          padding-top: 1rem; } }
+  #services__services hr {
+    background-color: #F3D1BF;
+    border: none;
+    height: 1px;
+    width: 100%;
+    margin: 0; }
+  #services__services .accordion-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 0; }
+    #services__services .accordion-item .heading {
+      width: 100%;
+      display: flex;
+      align-items: center; }
+      #services__services .accordion-item .heading h4 {
+        margin-left: 3%;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 64px;
+        color: #391400; }
+        @media (max-width: 992px) {
+          #services__services .accordion-item .heading h4 {
+            font-size: 30px;
+            word-break: break-all; } }
+      #services__services .accordion-item .heading .icon--large--services {
+        background-color: #EF6D58;
+        font-size: 20px;
+        color: white;
+        padding: 20px;
+        border-radius: 50%; }
+    #services__services .accordion-item .fa-circle-chevron-up, #services__services .accordion-item .fa-circle-chevron-down {
+      font-size: 25px;
+      color: #ed8575; }
+  #services__services .accordion-body {
+    padding: 6% 0;
+    justify-content: end; }
+    #services__services .accordion-body h4 {
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 48px;
+      color: #391400;
+      margin-bottom: 5%; }
+    #services__services .accordion-body ul li {
+      margin-bottom: 4%;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+      color: #391400; }
+      #services__services .accordion-body ul li i {
+        margin-right: 2%; }
+>>>>>>> 95ee14d4dcba3ef59f836b6464b224946157327c

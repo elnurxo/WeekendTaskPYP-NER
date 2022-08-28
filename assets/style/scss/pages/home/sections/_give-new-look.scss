@@ -100,9 +100,12 @@
       .box-transparent {
         padding: 105px 41px 46px 48px;
         margin-top: 10%;
-        @include for-tablet-landscape-up{
+        @include for-tablet-landscape-up {
           margin-top: 0;
-          margin-bottom: 112px;
+          @include for-tablet-landscape-up {
+            margin-top: 0;
+            margin-bottom: 112px;
+          }
         }
       }
     }
