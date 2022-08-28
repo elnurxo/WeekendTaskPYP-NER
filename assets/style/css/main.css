@@ -1686,3 +1686,86 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
     .app__main__awards__content__items__item__award p {
       margin-right: 0px;
       margin-bottom: 10px; } }
+
+.app__main__blogs {
+  background-color: #fdf0e9;
+  font-family: "Epilogue";
+  width: 100%; }
+  .app__main__blogs__header__subtitle {
+    margin-bottom: 20px;
+    padding-top: 92px; }
+    .app__main__blogs__header__subtitle__item {
+      color: #ef6d58;
+      font-size: 16px; }
+  .app__main__blogs__header__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; }
+    .app__main__blogs__header__title__item {
+      font-family: "Epilogue";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 56px;
+      line-height: 64px;
+      letter-spacing: -1px;
+      color: #391400; }
+    .app__main__blogs__header__title button {
+      background: #ffffff;
+      box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+      border-radius: 6px;
+      padding: 18px;
+      cursor: pointer;
+      border: none; }
+  .app__main__blogs__body__items {
+    margin-top: 20px; }
+    .app__main__blogs__body__items__item {
+      margin-right: 20px; }
+      .app__main__blogs__body__items__item__image {
+        width: 100%;
+        margin-bottom: 20px;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        .app__main__blogs__body__items__item__image img {
+          height: 246px;
+          width: 100%;
+          border-radius: 6px;
+          object-fit: cover; }
+      .app__main__blogs__body__items__item__body__category {
+        margin-bottom: 10px; }
+        .app__main__blogs__body__items__item__body__category p {
+          font-family: "Epilogue";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 32px;
+          color: #391400; }
+      .app__main__blogs__body__items__item__body__title {
+        margin-bottom: 10px; }
+        .app__main__blogs__body__items__item__body__title p {
+          font-family: "Epilogue";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 32px;
+          color: #391400; }
+      .app__main__blogs__body__items__item__body__date {
+        margin-top: 10px;
+        margin-bottom: 20px; }
+        .app__main__blogs__body__items__item__body__date p {
+          font-family: "Epilogue";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 32px;
+          color: rgba(57, 20, 0, 0.64); }
+
+@media only screen and (max-width: 992px) {
+  .app__main__blogs__header__title {
+    flex-direction: column; }
+    .app__main__blogs__header__title__item {
+      margin-bottom: 20px; }
+  .app__main__blogs__header__subtitle__item {
+    text-align: center; } }
