@@ -1,6 +1,7 @@
 .app__main__banner {
   background-color: #32334c;
   padding-bottom: 20px;
+  padding-top: 60px;
   &__content {
     position: relative;
     border-radius: 6px;
@@ -82,5 +83,8 @@
   }
   .app__main__banner__content__block {
     justify-content: center;
+    img{
+      width: 100%;
+    }
   }
 }

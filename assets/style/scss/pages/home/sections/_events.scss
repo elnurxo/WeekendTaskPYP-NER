@@ -1,0 +1,150 @@
+.app__main__events {
+  background-color: #32334c;
+  padding-bottom: 20px;
+  &__header {
+    text-align: center;
+    margin-bottom: 50px;
+    &__subtitle {
+      margin-bottom: 20px;
+      padding-top: 92px;
+      &__item {
+        color: #ef6d58;
+        font-size: 16px;
+      }
+    }
+    &__title {
+      &__item {
+        font-size: 40px;
+        color: white;
+      }
+    }
+  }
+  &__content {
+    &__items {
+      &__item {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border: 1px solid #3a3c56;
+        border-radius: 6px;
+        margin-right: 20px;
+        &__header {
+          padding: 20px;
+
+          &__date {
+            display: flex;
+            &__day {
+              margin-right: 20px;
+              span {
+                display: flex;
+                font-family: "Epilogue";
+                font-style: normal;
+                font-weight: 800;
+                font-size: 72px;
+                line-height: 80px;
+                letter-spacing: -2px;
+                color: #ffffff;
+              }
+            }
+            &__fulldate {
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-start;
+              &__month {
+                font-family: "Epilogue";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 32px;
+                color: #ffffff;
+                display: block;
+              }
+              &__year {
+                display: flex;
+                font-family: "Epilogue";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 32px;
+                color: #ffffff;
+              }
+            }
+          }
+          &__time {
+            display: flex;
+            align-items: center;
+            padding-bottom: 40px;
+            i {
+              color: orangered;
+              margin-right: 10px;
+            }
+            span {
+              font-family: "Epilogue";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 32px;
+              margin-right: 10px;
+              color: #ffffff;
+            }
+          }
+          .hr {
+            background-color: #3a3c56 !important;
+          }
+        }
+        &__body {
+          padding: 20px;
+          &__title {
+            margin-bottom: 20px;
+            &__item {
+              font-family: "Epilogue";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 24px;
+              line-height: 32px;
+              color: #ffffff;
+            }
+          }
+          &__desc {
+            margin-bottom: 20px;
+            &__item {
+              font-family: "Epilogue";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+
+              line-height: 32px;
+              color: rgba(255, 255, 255, 0.64);
+            }
+          }
+          &__button {
+            &__item {
+              background-color: transparent;
+              border: none;
+              font-family: "Epilogue";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 32px;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+    &__button {
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      button {
+        padding: 18px 30px;
+        border: 1px solid rgba(255, 255, 255, 0.295743);
+        border-radius: 6px;
+        background-color: transparent;
+        color: white;
+        font-weight: 700;
+      }
+    }
+  }
+ 
+}

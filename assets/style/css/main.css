@@ -446,6 +446,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
     padding: 10px 0;
     margin-bottom: 108px; }
     .app__main__hero__content__buttons--orange {
+      margin-bottom: 20px;
       margin-right: 48px;
       background: #ef6d58;
       border-radius: 6px;
@@ -471,7 +472,6 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
       line-height: 32px;
       color: rgba(255, 255, 255, 0.64); }
     .app__main__hero__content__testimonial__body__author__item {
-      /* Text */
       font-family: "Epilogue";
       font-style: normal;
       font-weight: 400;
@@ -625,6 +625,8 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
           color: #ffffffa3; }
       .app__main__portfolio__links__items .active a {
         color: white; }
+  .app__main__portfolio__select {
+    display: none; }
   .app__main__portfolio__items__item {
     margin-bottom: 20px;
     margin-right: 20px;
@@ -665,9 +667,30 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
       border: 1px solid rgba(255, 255, 255, 0.295743);
       border-radius: 6px; }
 
+@media only screen and (max-width: 992px) {
+  .app__main__portfolio__links {
+    display: none; }
+  .app__main__portfolio__select {
+    width: 100%;
+    display: block;
+    background: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px; }
+    .app__main__portfolio__select select {
+      width: 100%;
+      padding: 16px 12px;
+      border: none; }
+  .app__main__portfolio__items__item {
+    margin-right: 0; }
+    .app__main__portfolio__items__item__content {
+      left: 10px;
+      top: 240px; } }
+
 .app__main__banner {
   background-color: #32334c;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  padding-top: 60px; }
   .app__main__banner__content {
     position: relative;
     border-radius: 6px;
@@ -733,7 +756,9 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
     .app__main__banner__content__icon img {
       width: 100px; }
   .app__main__banner__content__block {
-    justify-content: center; } }
+    justify-content: center; }
+    .app__main__banner__content__block img {
+      width: 100%; } }
 
 #app__main__videoreel {
   padding-top: 127px;
@@ -865,6 +890,207 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
         border: 1px solid rgba(255, 255, 255, 0.295743);
         border-radius: 6px;
         font-size: 24px; } }
+
+.app__main__events {
+  background-color: #32334c;
+  padding-bottom: 20px; }
+  .app__main__events__header {
+    text-align: center;
+    margin-bottom: 50px; }
+    .app__main__events__header__subtitle {
+      margin-bottom: 20px;
+      padding-top: 92px; }
+      .app__main__events__header__subtitle__item {
+        color: #ef6d58;
+        font-size: 16px; }
+    .app__main__events__header__title__item {
+      font-size: 40px;
+      color: white; }
+  .app__main__events__content__items__item {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #3a3c56;
+    border-radius: 6px;
+    margin-right: 20px; }
+    .app__main__events__content__items__item__header {
+      padding: 20px; }
+      .app__main__events__content__items__item__header__date {
+        display: flex; }
+        .app__main__events__content__items__item__header__date__day {
+          margin-right: 20px; }
+          .app__main__events__content__items__item__header__date__day span {
+            display: flex;
+            font-family: "Epilogue";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 72px;
+            line-height: 80px;
+            letter-spacing: -2px;
+            color: #ffffff; }
+        .app__main__events__content__items__item__header__date__fulldate {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start; }
+          .app__main__events__content__items__item__header__date__fulldate__month {
+            font-family: "Epilogue";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            color: #ffffff;
+            display: block; }
+          .app__main__events__content__items__item__header__date__fulldate__year {
+            display: flex;
+            font-family: "Epilogue";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            color: #ffffff; }
+      .app__main__events__content__items__item__header__time {
+        display: flex;
+        align-items: center;
+        padding-bottom: 40px; }
+        .app__main__events__content__items__item__header__time i {
+          color: orangered;
+          margin-right: 10px; }
+        .app__main__events__content__items__item__header__time span {
+          font-family: "Epilogue";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 32px;
+          margin-right: 10px;
+          color: #ffffff; }
+      .app__main__events__content__items__item__header .hr {
+        background-color: #3a3c56 !important; }
+    .app__main__events__content__items__item__body {
+      padding: 20px; }
+      .app__main__events__content__items__item__body__title {
+        margin-bottom: 20px; }
+        .app__main__events__content__items__item__body__title__item {
+          font-family: "Epilogue";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 32px;
+          color: #ffffff; }
+      .app__main__events__content__items__item__body__desc {
+        margin-bottom: 20px; }
+        .app__main__events__content__items__item__body__desc__item {
+          font-family: "Epilogue";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 32px;
+          color: rgba(255, 255, 255, 0.64); }
+      .app__main__events__content__items__item__body__button__item {
+        background-color: transparent;
+        border: none;
+        font-family: "Epilogue";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: #ffffff; }
+  .app__main__events__content__button {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .app__main__events__content__button button {
+      padding: 18px 30px;
+      border: 1px solid rgba(255, 255, 255, 0.295743);
+      border-radius: 6px;
+      background-color: transparent;
+      color: white;
+      font-weight: 700; }
+
+#service {
+  background-color: #FDF0E9;
+  padding-bottom: 10%; }
+  #service .upper {
+    padding-bottom: 10%; }
+    #service .upper .main {
+      object-fit: contain;
+      width: 100%; }
+      @media (max-width: 992px) {
+        #service .upper .main {
+          width: 100%;
+          order: 1; } }
+    #service .upper .text {
+      padding-top: 4rem;
+      padding-left: 13%;
+      width: 100%; }
+      @media (max-width: 992px) {
+        #service .upper .text {
+          padding: 2% 0 0 0;
+          width: 100%;
+          order: 2; } }
+    #service .upper .comment-wrapper {
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 5%; }
+      #service .upper .comment-wrapper img {
+        object-fit: contain; }
+      #service .upper .comment-wrapper .comment {
+        padding-left: 5%; }
+        #service .upper .comment-wrapper .comment h6 {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 32px;
+          color: #391400; }
+        #service .upper .comment-wrapper .comment p {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 24px;
+          color: rgba(57, 20, 0, 0.64);
+          margin-bottom: 2%; }
+  #service .lower h2 {
+    padding-right: 60%;
+    margin-bottom: 7%; }
+    @media (max-width: 992px) {
+      #service .lower h2 {
+        padding: 0; } }
+  #service .lower .boxes {
+    display: flex;
+    flex-wrap: wrap; }
+    #service .lower .boxes .box {
+      padding: 4%;
+      border: 1px solid #f3d1bf;
+      width: 33.33%; }
+      @media (max-width: 992px) {
+        #service .lower .boxes .box {
+          width: 100%; } }
+      #service .lower .boxes .box i {
+        background-color: #EF6D58;
+        font-size: 24px;
+        color: white;
+        padding: 20px;
+        border-radius: 50%;
+        margin-bottom: 10%; }
+      #service .lower .boxes .box h4 {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 10%;
+        color: #391400; }
+      #service .lower .boxes .box p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: rgba(57, 20, 0, 0.64);
+        margin-bottom: 17%; }
+      #service .lower .boxes .box a {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: #391400; }
+    #service .lower .boxes .box:first-child {
+      border-radius: 6px 0px 0px 6px; }
+    #service .lower .boxes .box:last-child {
+      border-radius: 0px 6px 6px 0px; }
 
 #service {
   background-color: #FDF0E9;
@@ -1091,6 +1317,121 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
           color: #391400; }
   #app__main__testimonials .testimonials-button {
     text-align: center; }
+
+.app__main__events {
+  background-color: #32334c;
+  padding-bottom: 20px; }
+  .app__main__events__header {
+    text-align: center;
+    margin-bottom: 50px; }
+    .app__main__events__header__subtitle {
+      margin-bottom: 20px;
+      padding-top: 92px; }
+      .app__main__events__header__subtitle__item {
+        color: #ef6d58;
+        font-size: 16px; }
+    .app__main__events__header__title__item {
+      font-size: 40px;
+      color: white; }
+  .app__main__events__content__items__item {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #3a3c56;
+    border-radius: 6px;
+    margin-right: 20px; }
+    .app__main__events__content__items__item__header {
+      padding: 20px; }
+      .app__main__events__content__items__item__header__date {
+        display: flex; }
+        .app__main__events__content__items__item__header__date__day {
+          margin-right: 20px; }
+          .app__main__events__content__items__item__header__date__day span {
+            display: flex;
+            font-family: "Epilogue";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 72px;
+            line-height: 80px;
+            letter-spacing: -2px;
+            color: #ffffff; }
+        .app__main__events__content__items__item__header__date__fulldate {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start; }
+          .app__main__events__content__items__item__header__date__fulldate__month {
+            font-family: "Epilogue";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            color: #ffffff;
+            display: block; }
+          .app__main__events__content__items__item__header__date__fulldate__year {
+            display: flex;
+            font-family: "Epilogue";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            color: #ffffff; }
+      .app__main__events__content__items__item__header__time {
+        display: flex;
+        align-items: center;
+        padding-bottom: 40px; }
+        .app__main__events__content__items__item__header__time i {
+          color: orangered;
+          margin-right: 10px; }
+        .app__main__events__content__items__item__header__time span {
+          font-family: "Epilogue";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 32px;
+          margin-right: 10px;
+          color: #ffffff; }
+      .app__main__events__content__items__item__header .hr {
+        background-color: #3a3c56 !important; }
+    .app__main__events__content__items__item__body {
+      padding: 20px; }
+      .app__main__events__content__items__item__body__title {
+        margin-bottom: 20px; }
+        .app__main__events__content__items__item__body__title__item {
+          font-family: "Epilogue";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 32px;
+          color: #ffffff; }
+      .app__main__events__content__items__item__body__desc {
+        margin-bottom: 20px; }
+        .app__main__events__content__items__item__body__desc__item {
+          font-family: "Epilogue";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 32px;
+          color: rgba(255, 255, 255, 0.64); }
+      .app__main__events__content__items__item__body__button__item {
+        background-color: transparent;
+        border: none;
+        font-family: "Epilogue";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: #ffffff; }
+  .app__main__events__content__button {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .app__main__events__content__button button {
+      padding: 18px 30px;
+      border: 1px solid rgba(255, 255, 255, 0.295743);
+      border-radius: 6px;
+      background-color: transparent;
+      color: white;
+      font-weight: 700; }
 
 #faqs {
   background-color: #FDF0E9; }
