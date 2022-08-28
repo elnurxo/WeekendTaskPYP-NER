@@ -1,6 +1,10 @@
 .app__main__founder {
   background-color: #32334c;
   font-family: "Epilogue";
+  .founder-row{
+    display: flex;
+    align-items: center;
+  }
   &__image {
     padding-bottom: 50px;
     margin-right: 80px;
@@ -24,7 +28,6 @@
       &__item {
         font-size: 56px;
         color: white;
-        line-height: 80px;
         margin-bottom: 20px;
       }
     }
@@ -62,7 +65,6 @@
         &__title{
 
             &__item{
-                line-height: 50px;
                 font-size: 28px;
             }
         }
