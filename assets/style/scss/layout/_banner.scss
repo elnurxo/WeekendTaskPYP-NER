@@ -1,0 +1,25 @@
+.banner {
+  padding: 7% 5% 3%;
+  background-color: $dark-blue;
+  text-align: center;
+  h2 {
+    color: white;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 80px;
+    @include for-tablet-landscape-up {
+      font-size: 50px;
+      padding: 3%;
+    }
+  }
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.64);
+    padding: 5% 20%;
+    @include for-tablet-landscape-up {
+        padding: 5% 0;
+    }
+  }
+}

@@ -59,7 +59,7 @@
       display: flex;
       flex-wrap: wrap;
       .box {
-        padding: 4%;
+        padding: 4% 1% 4% 4%;
         border: 1px solid #f3d1bf;
         width: 33.33%;
         @include for-tablet-landscape-up {
@@ -92,9 +92,15 @@
       }
       .box:first-child {
         border-radius: 6px 0px 0px 6px;
+        @include for-tablet-landscape-up {
+          border-radius: 0px;
+        }
       }
       .box:last-child {
         border-radius: 0px 6px 6px 0px;
+        @include for-tablet-landscape-up {
+          border-radius: 0px;
+        }
       }
     }
   }
