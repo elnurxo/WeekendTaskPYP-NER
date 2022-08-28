@@ -49,6 +49,9 @@
       }
     }
   }
+  &__select{
+    display: none;
+  }
   &__items {
     &__item {
       margin-bottom: 20px;
@@ -99,6 +102,31 @@
       font-weight: 700;
       border: 1px solid rgba(255, 255, 255, 0.295743);
       border-radius: 6px;
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+  .app__main__portfolio__links {
+    display: none;
+  }
+  .app__main__portfolio__select {
+    width: 100%;
+    display: block;
+    background: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    select{
+      width: 100%;
+      padding:16px 12px;
+      border: none;
+    }
+  }
+  .app__main__portfolio__items__item{
+    margin-right: 0;
+    &__content{
+      left: 10px;
+      top: 240px;
     }
   }
 }

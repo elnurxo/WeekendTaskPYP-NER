@@ -1,0 +1,90 @@
+#pricing {
+  background-color: $section-bgc;
+  padding-bottom: 10%;
+  h2 {
+    padding-right: 70%;
+    margin-bottom: 2%;
+    @include for-tablet-landscape-up{
+      padding: 0;
+    }
+  }
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    .box {
+      width: 33.33%;
+      overflow: hidden;
+      border: 1px solid $hr-bgc;
+      border-radius: 6px 6px 0px 0px;
+      padding: 3% 4%;
+      @include for-tablet-landscape-up{
+        width: 100%;
+      }
+      h4 {
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 48px;
+        color: $text-dark;
+        margin-bottom: 2%;
+      }
+      p {
+        padding-right: 13%;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 30px;
+        color: $text-dark-grey;
+        margin-bottom: 10%;
+      }
+      ul {
+        li {
+          vertical-align: middle;
+          margin-bottom: 10%;
+        }
+        i {
+          @include icon(7px, 5px);
+        }
+        .fa-minus {
+          background-color: #f6daca;
+        }
+      }
+      span {
+        display: block;
+      }
+      .badge {
+        display: inline-block;
+        color: white;
+        font-size: 13px;
+        padding: 3%;
+        text-align: center;
+        background-color: $orange;
+        border-radius: 19px;
+        vertical-align: middle;
+        position: absolute;
+        top: 3%;
+        left: 9%;
+        @include for-tablet-landscape-up{
+          left: 2%;
+        }
+      }
+      button {
+        margin-top: 4%;
+      }
+    }
+    .active {
+      background-color: white;
+      align-self: baseline;
+      position: relative;
+      padding-top: 6%;
+      @include for-tablet-landscape-up{
+        padding-top: 20%;
+      }
+    }
+  }
+  .boxes .box:first-child {
+    border-radius: 6px 0px 0px 6px;
+  }
+  .boxes .box:last-child {
+    border-radius: 0px 6px 6px 0px;
+  }
+}

@@ -1,0 +1,80 @@
+@import '../../../abstracts/color';
+
+#faqs{
+    background-color: $section-bgc;
+    .faqs-content{
+        h3{
+            font-size: 40px;
+            line-height: 48px;
+        }
+        p{
+            color: $text-dark-grey;
+            font-size: 16px;
+            line-height: 32px;
+            margin-bottom: 29px;
+        }
+        @include for-tablet-landscape-up{
+            span{
+                display: block;
+                margin-bottom: 36px;
+            }
+        }
+    }
+    .faqs-accordion{
+        &__item{
+            &__title{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 40px 34px 40px 48px;
+                @include for-tablet-landscape-up{
+                    padding: 40px 28px;
+                }
+                border: 1px solid $hr-bgc;
+            }
+            &__title:last-child{
+                border-radius: 0px 0px 6px 6px;
+
+            }
+            .row{
+                width: 100%;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 35px;
+            }
+            &__content{
+                padding: 40px 34px 44px 48px;
+                p{
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 32px;
+                    color: $text-dark-grey;
+                }
+            }
+            .accordion--title{
+                align-self: center;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 32px;
+                cursor: pointer;
+                color: $text-dark;
+            }
+            & [class*="caret"]{
+                font-size: 22px;
+                border-radius: 50%;
+                padding: 7px 12px;
+                color: white;
+                background: $icon-bgc;
+            }
+            .active-accordion{
+                background-color: #fff;
+                border: 1px solid $hr-bgc;
+                box-shadow: 0px 32px 64px rgba(57, 20, 0, 0.04);
+                border-radius: 6px 6px 0px 0px;
+            }
+            &__title{
+
+            }
+        }
+    }
+}
