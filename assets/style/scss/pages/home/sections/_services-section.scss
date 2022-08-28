@@ -1,8 +1,16 @@
+@import '../../../abstracts/color';
+
 #service {
   background-color: $section-bgc;
-  padding-bottom: 10%;
+  padding-bottom: 128px;
+  @include for-tablet-landscape-up{
+    padding-bottom: 114px;
+  }
   .upper {
-    padding-bottom: 10%;
+    padding-bottom: 141px;
+    @include for-tablet-landscape-up{
+      padding-bottom: 124px;
+    }
     .main {
       object-fit: contain;
       width: 100%;

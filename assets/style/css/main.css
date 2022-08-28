@@ -408,7 +408,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
     margin-top: 15%; }
     @media (max-width: 992px) {
       #give-new-look .lower {
-        margin-top: 8%; } }
+        margin-top: 130px; } }
     #give-new-look .lower .text {
       width: 50%;
       padding-right: 20%; }
@@ -434,6 +434,9 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
         border: 1px solid #F3D1BF;
         padding: 10% 5% 5% 7%;
         width: 50%; }
+        @media (max-width: 992px) {
+          #give-new-look .lower .boxes .box {
+            width: 100%; } }
         #give-new-look .lower .boxes .box h6 {
           color: #391400;
           font-weight: 700;
@@ -445,11 +448,17 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
           line-height: 32px;
           color: rgba(57, 20, 0, 0.64); }
       #give-new-look .lower .boxes .box-white {
-        background-color: white; }
+        background-color: white;
+        padding: 48px 41px 46px 48px; }
         #give-new-look .lower .boxes .box-white i {
           margin-bottom: 10%; }
       #give-new-look .lower .boxes .box-transparent {
+        padding: 105px 41px 46px 48px;
         margin-top: 10%; }
+        @media (max-width: 992px) {
+          #give-new-look .lower .boxes .box-transparent {
+            margin-top: 0;
+            margin-bottom: 112px; } }
 
 .app__main__hero {
   background-color: #32334c;
@@ -587,6 +596,18 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
 
 .app__main__features {
   background-color: #fdf0e9; }
+  .app__main__features .features__content {
+    padding: 40px; }
+    @media (max-width: 992px) {
+      .app__main__features .features__content {
+        padding: 0; } }
+  .app__main__features .features-wrap {
+    padding-bottom: 65px; }
+    @media (max-width: 992px) {
+      .app__main__features .features-wrap {
+        padding-bottom: 30px; } }
+  .app__main__features__button__item {
+    font-size: 16px; }
   .app__main__features__subtitle {
     margin-bottom: 24px; }
     .app__main__features__subtitle__item {
@@ -672,8 +693,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
     margin-bottom: 20px;
     margin-right: 20px;
     border-radius: 6px;
-    position: relative;
-    border: 1px solid black; }
+    position: relative; }
     .app__main__portfolio__items__item img {
       width: 100% !important;
       border-radius: 6px;
@@ -706,7 +726,8 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
       color: white;
       font-weight: 700;
       border: 1px solid rgba(255, 255, 255, 0.295743);
-      border-radius: 6px; }
+      border-radius: 6px;
+      margin-top: 40px; }
 
 @media only screen and (max-width: 992px) {
   .app__main__portfolio__links {
@@ -730,7 +751,8 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
 
 .app__main__banner {
   background-color: #32334c;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  padding-top: 117px; }
   .app__main__banner__content {
     position: relative;
     border-radius: 6px;
@@ -739,6 +761,9 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
       display: flex;
       justify-content: flex-end;
       padding: 20px; }
+      @media (max-width: 992px) {
+        .app__main__banner__content__block {
+          padding-bottom: 0; } }
       .app__main__banner__content__block__inner {
         padding: 0 40px;
         display: flex;
@@ -780,6 +805,10 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
       .app__main__banner__content__block img {
         align-self: center;
         justify-self: center; }
+        @media (max-width: 992px) {
+          .app__main__banner__content__block img {
+            width: 100%;
+            height: 100%; } }
     .app__main__banner__content__icon {
       position: absolute;
       top: -70px;
@@ -796,9 +825,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
     .app__main__banner__content__icon img {
       width: 100px; }
   .app__main__banner__content__block {
-    justify-content: center; }
-    .app__main__banner__content__block img {
-      width: 100%; } }
+    justify-content: center; } }
 
 #app__main__testimonials {
   background-color: #FDF0E9;
@@ -864,9 +891,15 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
 
 #service {
   background-color: #FDF0E9;
-  padding-bottom: 10%; }
+  padding-bottom: 128px; }
+  @media (max-width: 992px) {
+    #service {
+      padding-bottom: 114px; } }
   #service .upper {
-    padding-bottom: 10%; }
+    padding-bottom: 141px; }
+    @media (max-width: 992px) {
+      #service .upper {
+        padding-bottom: 124px; } }
     #service .upper .main {
       object-fit: contain;
       width: 100%; }
