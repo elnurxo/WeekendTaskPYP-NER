@@ -508,6 +508,12 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
       line-height: 32px;
       color: #ffffff; }
 
+@media only screen and (max-width: 992px) {
+  .hero-row {
+    flex-direction: column-reverse; }
+  .app__main__hero {
+    padding-top: 0; } }
+
 #experience-design-agency {
   background-color: #FDF0E9; }
   #experience-design-agency .logos {
