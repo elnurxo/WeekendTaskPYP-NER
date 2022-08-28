@@ -689,8 +689,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
 
 .app__main__banner {
   background-color: #32334c;
-  padding-bottom: 20px;
-  padding-top: 60px; }
+  padding-bottom: 20px; }
   .app__main__banner__content {
     position: relative;
     border-radius: 6px;
