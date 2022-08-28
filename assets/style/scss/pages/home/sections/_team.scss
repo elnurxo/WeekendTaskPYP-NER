@@ -1,0 +1,122 @@
+@import '../../../abstracts/color';
+.app__main__team {
+  background-color: #32334c;
+  font-family: "Epilogue";
+  width: 100%;
+  &__header {
+    &__subtitle {
+      margin-bottom: 20px;
+      padding-top: 92px;
+      &__item {
+        color: #ef6d58;
+        font-size: 16px;
+      }
+    }
+    &__title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      &__item {
+        font-family: "Epilogue";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 56px;
+        line-height: 64px;
+        letter-spacing: -1px;
+        color: #ffffff;
+      }
+      &__icons {
+        display: flex;
+        &__icon {
+          margin-right: 20px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: solid;
+          border-radius: 50%;
+          width: 48px;
+          height: 48px;
+        }
+      }
+    }
+  }
+  &__body {
+    &__items {
+      margin-top: 20px;
+      &__item {
+        margin-right: 20px;
+        &__image {
+          margin-bottom: 20px;
+          border: 1px solid #3a3c56;
+          border-radius: 6px;
+          display: flex;
+          align-items: center;
+          height: 246px;
+          justify-content: center;
+          img {
+            height: 246px;
+            width: 100%;
+            object-fit: contain;
+          }
+        }
+        &__body {
+          &__name {
+            margin-bottom: 10px;
+            p {
+              font-family: "Epilogue";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 24px;
+              line-height: 32px;
+              color: #ffffff;
+            }
+          }
+          &__position {
+            p {
+              font-family: "Epilogue";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 32px;
+              color: rgba(255, 255, 255, 0.64);
+            }
+          }
+        }
+      }
+    }
+  }
+  &__dots{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__item{
+      margin-right: 20px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: 1px solid #4E4F6E;
+    }
+    .active{
+      background-color: #ef6d58;
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+  .app__main__team__header__title__icons {
+    display: none;
+  }
+  .app__main__team__header__title__item {
+    font-size: 36px;
+  }
+  .app__main__team__body__items__item {
+    &__image {
+      img {
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+}
