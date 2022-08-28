@@ -2029,7 +2029,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
 
 #services__services {
   background-color: #FDF0E9;
-  padding-top: 8%; }
+  padding: 8% 0 8%; }
   #services__services .info {
     padding-bottom: 3%; }
     #services__services .info h2 {
