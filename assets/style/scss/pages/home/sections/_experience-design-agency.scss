@@ -50,6 +50,7 @@
       .box {
         border: 1px solid $hr-bgc;
         padding: 2.5rem;
+        
         h5 {
           font-weight: 800;
           font-size: 30px;
@@ -70,9 +71,15 @@
     }
     .col-4:first-child .box{
         border-radius: 6px 0px 0px 6px;
+        @include for-tablet-landscape-up{
+          border-radius: 0px;
+        }
     }
     .col-4:last-child .box{
         border-radius: 0px 6px 6px 0px;
+        @include for-tablet-landscape-up{
+          border-radius: 0px;
+        }
     }
   }
 }
