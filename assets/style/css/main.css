@@ -2101,3 +2101,6 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
       color: #391400; }
       #services__services .accordion-body ul li i {
         margin-right: 2%; }
+
+html {
+  scroll-behavior: smooth; }
