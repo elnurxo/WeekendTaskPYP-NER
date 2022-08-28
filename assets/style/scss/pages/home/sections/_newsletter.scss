@@ -1,0 +1,52 @@
+@import '../../../abstracts/color';
+
+#newsletter{
+    background-color: $section-bgc;
+    .news-wrapper{
+        padding-top: 60px;
+        padding-bottom: 116px;
+        @include for-tablet-landscape-up{
+            padding-top: 76px;
+            padding-bottom: 128px;
+        }
+        h3{
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 48px;
+            color: $text-dark;
+            @include for-tablet-landscape-up{
+                margin-bottom: 35px;
+            }
+        }
+        form{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            @include for-tablet-landscape-up{
+                display: block;
+            }
+            input{
+                border: 1px solid $hr-bgc;
+                border-radius: 6px;
+                font-size: 16px;
+                line-height: 32px;  
+                color: $text-dark-grey;
+                padding: 9px 0 7px 16px;
+                width: 370px;
+                margin-right: 30px;
+                @include for-tablet-landscape-up{
+                    margin-bottom: 16px;
+                    width: 100%;
+                }
+            }
+            button{
+                @include for-tablet-landscape-up{
+                    width: 104%;
+                }
+            }
+        }
+    }
+}
+.app__main{
+    background-color: $section-bgc;
+}
