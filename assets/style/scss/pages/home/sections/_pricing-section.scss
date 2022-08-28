@@ -4,7 +4,7 @@
   h2 {
     padding-right: 70%;
     margin-bottom: 2%;
-    @include for-tablet-landscape-up{
+    @include for-tablet-landscape-up {
       padding: 0;
     }
   }
@@ -18,7 +18,7 @@
       border: 1px solid $hr-bgc;
       border-radius: 6px 6px 0px 0px;
       padding: 3% 4%;
-      @include for-tablet-landscape-up{
+      @include for-tablet-landscape-up {
         width: 100%;
       }
       h4 {
@@ -63,7 +63,7 @@
         position: absolute;
         top: 3%;
         left: 9%;
-        @include for-tablet-landscape-up{
+        @include for-tablet-landscape-up {
           left: 2%;
         }
       }
@@ -76,15 +76,21 @@
       align-self: baseline;
       position: relative;
       padding-top: 6%;
-      @include for-tablet-landscape-up{
+      @include for-tablet-landscape-up {
         padding-top: 20%;
       }
     }
   }
   .boxes .box:first-child {
     border-radius: 6px 0px 0px 6px;
+    @include for-tablet-landscape-up {
+      border-radius: 0px;
+    }
   }
   .boxes .box:last-child {
     border-radius: 0px 6px 6px 0px;
+    @include for-tablet-landscape-up {
+      border-radius: 0px;
+    }
   }
 }

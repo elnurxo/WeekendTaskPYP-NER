@@ -280,6 +280,29 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
     .footer__row--copyright .terms-of-use, .footer__row--copyright .privacy-policy {
       margin-left: 68px; }
 
+.banner {
+  padding: 7% 5% 3%;
+  background-color: #32334c;
+  text-align: center; }
+  .banner h2 {
+    color: white;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 80px; }
+    @media (max-width: 992px) {
+      .banner h2 {
+        font-size: 50px;
+        padding: 3%; } }
+  .banner p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.64);
+    padding: 5% 20%; }
+    @media (max-width: 992px) {
+      .banner p {
+        padding: 5% 0; } }
+
 #experience-design-agency {
   background-color: #FDF0E9; }
   #experience-design-agency .logos {
@@ -335,8 +358,14 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
         color: #391400; }
     #experience-design-agency #about .col-4:first-child .box {
       border-radius: 6px 0px 0px 6px; }
+      @media (max-width: 992px) {
+        #experience-design-agency #about .col-4:first-child .box {
+          border-radius: 0px; } }
     #experience-design-agency #about .col-4:last-child .box {
       border-radius: 0px 6px 6px 0px; }
+      @media (max-width: 992px) {
+        #experience-design-agency #about .col-4:last-child .box {
+          border-radius: 0px; } }
 
 #give-new-look {
   background-color: #FDF0E9; }
@@ -534,8 +563,14 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
         color: #391400; }
     #experience-design-agency #about .col-4:first-child .box {
       border-radius: 6px 0px 0px 6px; }
+      @media (max-width: 992px) {
+        #experience-design-agency #about .col-4:first-child .box {
+          border-radius: 0px; } }
     #experience-design-agency #about .col-4:last-child .box {
       border-radius: 0px 6px 6px 0px; }
+      @media (max-width: 992px) {
+        #experience-design-agency #about .col-4:last-child .box {
+          border-radius: 0px; } }
 
 .hr {
   width: 100%;
@@ -872,7 +907,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
     display: flex;
     flex-wrap: wrap; }
     #service .lower .boxes .box {
-      padding: 4%;
+      padding: 4% 1% 4% 4%;
       border: 1px solid #f3d1bf;
       width: 33.33%; }
       @media (max-width: 992px) {
@@ -904,8 +939,14 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
         color: #391400; }
     #service .lower .boxes .box:first-child {
       border-radius: 6px 0px 0px 6px; }
+      @media (max-width: 992px) {
+        #service .lower .boxes .box:first-child {
+          border-radius: 0px; } }
     #service .lower .boxes .box:last-child {
       border-radius: 0px 6px 6px 0px; }
+      @media (max-width: 992px) {
+        #service .lower .boxes .box:last-child {
+          border-radius: 0px; } }
 
 #faqs {
   background-color: #FDF0E9; }
@@ -1346,8 +1387,14 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
           padding-top: 20%; } }
   #pricing .boxes .box:first-child {
     border-radius: 6px 0px 0px 6px; }
+    @media (max-width: 992px) {
+      #pricing .boxes .box:first-child {
+        border-radius: 0px; } }
   #pricing .boxes .box:last-child {
     border-radius: 0px 6px 6px 0px; }
+    @media (max-width: 992px) {
+      #pricing .boxes .box:last-child {
+        border-radius: 0px; } }
 
 #app__main__testimonials {
   background-color: #FDF0E9;
