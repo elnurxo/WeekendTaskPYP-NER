@@ -1508,6 +1508,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
       font-family: "Epilogue";
       font-style: normal;
       font-weight: 800;
+      font-size: 56px;
       line-height: 64px;
       letter-spacing: -1px;
       color: #ffffff; }
@@ -1554,6 +1555,20 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
         font-size: 16px;
         line-height: 32px;
         color: rgba(255, 255, 255, 0.64); }
+  .app__main__team__dots {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .app__main__team__dots__item {
+      margin-right: 20px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: 1px solid #4E4F6E; }
+    .app__main__team__dots .active {
+      background-color: #ef6d58; }
 
 @media only screen and (max-width: 992px) {
   .app__main__team__header__title__icons {

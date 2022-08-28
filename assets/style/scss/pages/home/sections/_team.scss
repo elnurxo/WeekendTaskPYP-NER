@@ -1,3 +1,4 @@
+@import '../../../abstracts/color';
 .app__main__team {
   background-color: #32334c;
   font-family: "Epilogue";
@@ -20,6 +21,7 @@
         font-family: "Epilogue";
         font-style: normal;
         font-weight: 800;
+        font-size: 56px;
         line-height: 64px;
         letter-spacing: -1px;
         color: #ffffff;
@@ -82,6 +84,23 @@
           }
         }
       }
+    }
+  }
+  &__dots{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__item{
+      margin-right: 20px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: 1px solid #4E4F6E;
+    }
+    .active{
+      background-color: #ef6d58;
     }
   }
 }
