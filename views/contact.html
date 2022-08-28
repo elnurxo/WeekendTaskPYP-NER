@@ -1,104 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/style/css/main.css">
-    <title>Contact</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/0756c55a68.js" crossorigin="anonymous"></script>
+  <!-- Google Fonts Link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,500;0,600;1,500;1,600&family=Permanent+Marker&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <!-- Main Css Link -->
+  <link rel="stylesheet" href="../assets/style/css/main.css">
+  <title>Figma Template | Contact</title>
 </head>
+
 <body>
-    <header class="app__header app__header__desktop">
-        <div class="container">
-          <div class="row">
-            <div class="col-3">
-             <a href="home.html">
-                <div class="app__header__logo">
-                    <img src="../assets/images/logo.png" alt="" />
-                  </div>
-             </a>
-            </div>
-            <div class="col-6">
-              <ul class="app__header__links">
-                <li class="app__header__links__item">
-                  <a href="#">About</a>
-                </li>
-    
-                <li class="app__header__links__item">
-                  <a href="services.html">Services</a>
-                </li>
-    
-                <li class="app__header__links__item">
-                  <a href="contact.html">Contact</a>
-                </li>
-    
-                <li class="app__header__links__item">
-                  <a href="#">Blog</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-3">
-              <div class="app__header__button">
-                <button>Contact</button>
-              </div>
-            </div>
-      </header>
-      <header class="app__header app__header__mobile">
-        <div class="container">
-          <div class="row">
-            <div class="col-6">
+  <header class="app__header app__header__desktop">
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <a href="home.html">
+            <div class="app__header__logo">
               <img src="../assets/images/logo.png" alt="" />
             </div>
-            <div class="col-6">
-              <div class="burger">
-                <i class="fa-solid fa-bars"></i>
+          </a>
+        </div>
+        <div class="col-6">
+          <ul class="app__header__links">
+            <li class="app__header__links__item">
+              <a href="#">About</a>
+            </li>
+
+            <li class="app__header__links__item">
+              <a href="services.html">Services</a>
+            </li>
+
+            <li class="app__header__links__item">
+              <a href="home.html">Pricing</a>
+            </li>
+
+            <li class="app__header__links__item">
+              <a href="#">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <div class="app__header__button">
+            <button>Contact</button>
+          </div>
+        </div>
+  </header>
+  <header class="app__header app__header__mobile">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <img src="../assets/images/logo.png" alt="" />
+        </div>
+        <div class="col-6">
+          <div class="burger">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="app__main">
+    <section class="banner">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Agency provides a full service range including technical skills, design, business understanding.</p>
+      </div>
+    </section>
+    <section id="get-in-touch" class="get-in-touch__contact">
+      <div id="map_wrapper">
+        <div class="get-in-touch__form">
+          <h4>Get In Touch</h4>
+          <form action="#">
+            <input type="text" placeholder="Your email">
+            <select name="subjects" id="subjects">
+              <option selected disabled value="">Subject</option>
+              <option value="1">Subject 1</option>
+              <option value="2">Subject 2</option>
+              <option value="3">Subject 3</option>
+            </select>
+            <textarea name="" id="" placeholder="Message"></textarea>
+            <button type="submit" class="btn--primary">SUBMIT NOW</button>
+          </form>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d18260491.238137282!2d-2.7198683559371384!3d45.555738153560796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1661661441834!5m2!1sen!2s"
+          style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      </div>
+    </section>
+    <section id="contact-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-md-12">
+            <div class="contact__item">
+              <div class="icon--title">
+                <i class="fa-solid fa-phone icon--large"></i>
+                <h5 class="section--category">Phone</h5>
+              </div>
+              <span>+1 (234) 567-89-00</span>
+            </div>
+          </div>
+          <div class="col-4 col-md-12">
+            <div class="contact__item">
+              <div class="icon--title">
+                <i class="fa-solid fa-envelope icon--large"></i>
+                <h5 class="section--category">Mail</h5>
+              </div>
+              <span>info@agency.com</span>
+            </div>
+          </div>
+          <div class="col-4 col-md-12">
+            <div class="contact__item">
+              <div class="icon--title">
+                <i class="fa-solid fa-location-arrow icon--large"></i>
+                <h5 class="section--category">Address</h5>
+              </div>
+              <span>2247 Lunetta Street, TX 76301</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="faqs" class="faqs__contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-md-12 faqs-content">
+            <span class="section--category">FAQ</span>
+            <h3 class="section--heading">Frequently Asked Questions</h3>
+            <p>A digital agency is a business you hire to outsource your digital marketing efforts, instead of
+              handling
+              in-house.</p>
+            <span>Contact Us</span>
+          </div>
+          <div class="col-6 col-md-12">
+            <div class="faqs-accordion">
+              <div class="faqs-accordion__item">
+                <div class="faqs-accordion__item__content active-accordion">
+                  <div class="row">
+                    <h4 class="accordion--title">A digital agency is a business</h4>
+                    <i class="fa-solid fa-caret-up"></i>
+                  </div>
+                  <p>Digital marketing efforts, instead of handling in-house. They can provide your business with a
+                    variety
+                    of digital solutions to promote your product or service online and help you hit your marketing
+                    goals
+                    and
+                    grow your business.</p>
+                </div>
+              </div>
+              <div class="faqs-accordion__item">
+                <div class="faqs-accordion__item__title">
+                  <h4 class="accordion--title">Hire to outsource your digital</h4>
+                  <i class="fa-solid fa-caret-down"></i>
+                </div>
+              </div>
+              <div class="faqs-accordion__item">
+                <div class="faqs-accordion__item__title">
+                  <h4 class="accordion--title">Marketing efforts</h4>
+                  <i class="fa-solid fa-caret-down"></i>
+                </div>
+              </div>
+              <div class="faqs-accordion__item">
+                <div class="faqs-accordion__item__title last-accordion">
+                  <h4 class="accordion--title">Can provide your business</h4>
+                  <i class="fa-solid fa-caret-down"></i>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </header>
-      <main></main>
-      <footer class="footer">
-        <div class="container">
-          <div class="row footer__row--main">
-            <div class="col-3 col-md-12 footer__item">
-              <h2 class="footer__item--agency">Agency</h2>
-            </div>
-            <div class="col-3 col-md-12 footer__item--link">
-              <h5>Menu</h5>
-              <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </div>
-            <div class="col-3 col-md-12 footer__item--link">
-              <h5>Service</h5>
-              <ul>
-                <li><a href="#">Design</a></li>
-                <li><a href="#">Development</a></li>
-                <li><a href="#">Marketing</a></li>
-                <li><a href="#">See More</a></li>
-              </ul>
-            </div>
-            <div class="col-3 col-md-12 footer__item--icon">
-              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-              <a href=""><i class="fa-brands fa-twitter"></i></a>
-              <a href=""><i class="fa-brands fa-instagram"></i></a>
-            </div>
-          </div>
-          <hr />
-          <div class="row footer__row--copyright">
-            <div class="col-6 col-md-12 copyright">
-              <span>Copyright © 2022 Laaqiq. All Rights Reserved.</span>
-            </div>
-            <div class="col-6 col-md-12 term-of-use-privacy-col">
-              <a href="#"><span class="terms-of-use">Terms of Use</span></a>
-              <a href="#"><span class="privacy-policy">Privacy Policy</span></a>
-            </div>
-          </div>
+        <hr class="hr hr__contact">
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="row footer__row--main">
+        <div class="col-3 col-md-12 footer__item">
+          <h2 class="footer__item--agency">Agency</h2>
         </div>
-      </footer>
+        <div class="col-3 col-md-12 footer__item--link">
+          <h5>Menu</h5>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-3 col-md-12 footer__item--link">
+          <h5>Service</h5>
+          <ul>
+            <li><a href="#">Design</a></li>
+            <li><a href="#">Development</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">See More</a></li>
+          </ul>
+        </div>
+        <div class="col-3 col-md-12 footer__item--icon">
+          <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+      <hr />
+      <div class="row footer__row--copyright">
+        <div class="col-6 col-md-12 copyright">
+          <span>Copyright © 2022 Laaqiq. All Rights Reserved.</span>
+        </div>
+        <div class="col-6 col-md-12 term-of-use-privacy-col">
+          <a href="#"><span class="terms-of-use">Terms of Use</span></a>
+          <a href="#"><span class="privacy-policy">Privacy Policy</span></a>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
