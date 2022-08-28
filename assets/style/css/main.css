@@ -689,8 +689,7 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
 
 .app__main__banner {
   background-color: #32334c;
-  padding-bottom: 20px;
-  padding-top: 60px; }
+  padding-bottom: 20px; }
   .app__main__banner__content {
     position: relative;
     border-radius: 6px;
@@ -1626,6 +1625,9 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
 .app__main__founder {
   background-color: #32334c;
   font-family: "Epilogue"; }
+  .app__main__founder .founder-row {
+    display: flex;
+    align-items: center; }
   .app__main__founder__image {
     padding-bottom: 50px;
     margin-right: 80px; }
@@ -1642,7 +1644,6 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
   .app__main__founder__content__title__item {
     font-size: 56px;
     color: white;
-    line-height: 80px;
     margin-bottom: 20px; }
   .app__main__founder__content__name {
     margin-bottom: 5px; }
@@ -1667,7 +1668,6 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
   .app__main__founder__image {
     margin-right: 0; }
   .app__main__founder__content__title__item {
-    line-height: 50px;
     font-size: 28px; } }
 
 .app__main__awards {
