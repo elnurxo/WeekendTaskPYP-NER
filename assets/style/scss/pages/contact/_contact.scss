@@ -1,0 +1,16 @@
+.faqs__contact{
+    padding-bottom: 5px;
+}
+.hr__contact{
+    margin-top: 127px;
+}
+.get-in-touch__contact{
+    #map_wrapper{
+        .get-in-touch__form{
+            @include for-phone-only{
+                margin-top: 64px !important;
+            }
+        }
+    }
+
+}

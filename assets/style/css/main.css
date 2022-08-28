@@ -2027,6 +2027,16 @@ h1, h2, h3, h4, h5, h6, p, span, a, button {
         width: 100%;
         height: 100%; }
 
+.faqs__contact {
+  padding-bottom: 5px; }
+
+.hr__contact {
+  margin-top: 127px; }
+
+@media (max-width: 576px) {
+  .get-in-touch__contact #map_wrapper .get-in-touch__form {
+    margin-top: 64px !important; } }
+
 #services__services {
   background-color: #FDF0E9;
   padding: 8% 0 8%; }
