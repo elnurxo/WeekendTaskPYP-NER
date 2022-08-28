@@ -1,6 +1,7 @@
+@import '../../../abstracts/color';
 .app__main__awards {
   background-color: #fdf0e9;
-  padding-top: 50px;
+  padding-top: 156px;
   &__title {
     padding-bottom: 30px;
     &__item {
@@ -47,6 +48,20 @@
         }
       }
     }
+    &__explore--now{
+      text-align: center;
+      span{
+        display: block;
+        margin-top: 59px;
+        color: $text-dark-grey;
+        font-size: 16px;
+        font-weight: 400; 
+        line-height: 32px;
+        a{
+          color: black;
+        }
+      }
+    }
   }
 }
 @media only screen and (max-width: 992px) {
@@ -81,5 +96,5 @@
             }
         }
     }
-  }
+}
   

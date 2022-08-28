@@ -1,0 +1,59 @@
+@import '../../../abstracts/color';
+
+#contact-promotion{
+    background-color: $section-bgc;
+    .contact-row{
+        @include for-tablet-landscape-up{
+            flex-direction: column-reverse;
+        }
+    }
+    .promotion-wrapper{
+        .row{
+            align-items: center;
+        }
+        @include for-tablet-landscape-up{
+            padding: 32px 27px 48px 28px;
+        }
+        padding: 38px 70px 72px 100px;
+        background-color: $icon-bgc;
+        border-radius: 6px;
+        
+        h2{
+            font-weight: 800;
+            color: white;
+            font-size: 56px;
+            letter-spacing: -1px;
+            margin-right: 45.25px;
+            margin-bottom: 28px;
+            @include for-tablet-landscape-up{
+                font-size: 40px;
+            }
+        }
+        p{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 32px;
+            color: #FFFFFF;
+            margin-bottom: 34px;
+        }
+        .contact-image{
+            display: flex;
+            justify-content: end;
+            @include for-tablet-landscape-up{
+                justify-content: center;
+            }
+        }
+        .image-wrapper{
+            width: 444px;
+            overflow: hidden;
+            box-sizing: border-box;
+            @include for-tablet-landscape-up{
+                margin-bottom: 37px;
+            }
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
