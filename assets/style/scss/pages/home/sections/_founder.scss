@@ -1,7 +1,8 @@
 .app__main__founder {
   background-color: #32334c;
+  padding-bottom: 70px;
   font-family: "Epilogue";
-  .founder-row{
+  .founder-row {
     display: flex;
     align-items: center;
   }
@@ -13,11 +14,10 @@
     }
   }
   &__content {
-
     &__subtitle {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       &__item {
         margin-bottom: 40px;
         color: #ef6d58;
@@ -26,9 +26,12 @@
     }
     &__title {
       &__item {
-        font-size: 56px;
-        color: white;
-        margin-bottom: 20px;
+        font-family: "Epilogue";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 48px;
+        color: #ffffff;
       }
     }
     &__name {
@@ -57,17 +60,15 @@
 }
 @media only screen and (max-width: 992px) {
   .app__main__founder {
-    &__image{
-        margin-right: 0;
+    &__image {
+      margin-right: 0;
     }
-    &__content{
-
-        &__title{
-
-            &__item{
-                font-size: 28px;
-            }
+    &__content {
+      &__title {
+        &__item {
+          font-size: 28px;
         }
+      }
     }
   }
 }
